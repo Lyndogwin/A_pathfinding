@@ -15,20 +15,24 @@ public class tileautomate : MonoBehaviour
     public struct Node
     {
         // *** implement enumerated state or use integer representations
-        //public state = state.std;
+        public object state = default(state);
         public Pos parent;
-        public Node(/*State,*/ int px, int py)
+        public Node(int x, int y)
         {
-            //state = State;
-            parent.x = px;
-            parent.y = py;
+            switch (state)
+            {
+                case state.end:
+                    state = state.end;
+            }
+            parent.x = x;
+            parent.y = y;
         }
     }
-
+    //*** read more documentation of enum */
     public enum state
     {
-        select,
         std,
+        select,
         start,
         end,
         start_s,
