@@ -18,9 +18,9 @@ public class tileautomate : MonoBehaviour
         // *** implement enumerated state or use integer representations
         
         public Tile cur; // will reprsent state
-        public Sprite pointer; 
+        public Tile pointer; 
         public Pos parent;
-        public Node(int x, int y, Tile t, Sprite s)
+        public Node(int x, int y, Tile t, Tile s)
         {
             parent.x = x;
             parent.y = y;
@@ -30,14 +30,18 @@ public class tileautomate : MonoBehaviour
     }
 
     private Node[,] terrainmap;
+    private Vector3Int startPos;
+    private Vector3Int endPos;
+    private Vector3Int curPos;
     
     // map size 15 x 15 chosen from the unity editor
     public Vector3Int tmapsize;
-
-    // the follwing elements exist for graphic ad will store sprites 
-    //public Tilemap topMap;
+    
     public Tilemap botMap;
+    public Tilemap topMap;
     public Grid tileGrid;
+
+    // The following tiles will represent states
     public Tile select;
     public Tile std;
     public Tile start;
@@ -46,15 +50,16 @@ public class tileautomate : MonoBehaviour
     public Tile end_s;
     public Tile wall;
 
-    public Sprite up;
-    public Sprite down;
-    public Sprite left;
-    public Sprite right;
-    public Sprite up_left;
-    public Sprite up_right;
-    public Sprite down_left;
-    public Sprite down_right;
-    public Sprite none;
+    // The folling tiles will represent parent pointers
+    public Tile up;
+    public Tile down;
+    public Tile left;
+    public Tile right;
+    public Tile up_left;
+    public Tile up_right;
+    public Tile down_left;
+    public Tile down_right;
+    public Tile none;
     
     //*** read more documentation of enum */
     //[Flags]
@@ -86,7 +91,6 @@ public class tileautomate : MonoBehaviour
         numTiles = width * height;
         numWallTiles = (int)(Math.Ceiling(numTiles * .1));
         System.Random rnd = new System.Random();
-        //int counter = 0;
 
         terrainmap = new Node[width,height]; // initalize mapsize
         
@@ -149,6 +153,8 @@ public class tileautomate : MonoBehaviour
                     if(terrainmap[tilePos.x,tilePos.y].cur != wall)
                     {
                         terrainmap[tilePos.x,tilePos.y].cur = start;
+                        startPos = tilePos;
+                        curPos = tilePos;
                         startSelected = true;
                     }
                 }
@@ -160,8 +166,32 @@ public class tileautomate : MonoBehaviour
                     if((terrainmap[tilePos.x,tilePos.y].cur != start) && (terrainmap[tilePos.x,tilePos.y].cur != wall))
                     {
                         terrainmap[tilePos.x,tilePos.y].cur = end;
+                        endPos = tilePos;
                         endSelected = true;
                         gameStart = false;
+                    }
+                }
+            }
+        }
+    }
+    
+    public void search()
+    {
+        int [,]moves = new int[8,2] {{curPos.x -1,curPos.y}, {curPos.x -1,curPos.y -1}, 
+                        {curPos.x,curPos.y -1}, {curPos.x +1,curPos.y -1}, 
+                        {curPos.x +1,curPos.y}, {curPos.x +1,curPos.y +1}, 
+                        {curPos.x,curPos.y +1}, {curPos.x -1,curPos.y+1}};
+        for(int i = 0; i < width; i++)
+        {
+            for(int j = 0; j < height; j++)
+            {
+                for(int k = 0; k < 8; k++)
+                {
+                    if((i == moves[k,0]) && (j == moves[k,1]))  
+                    {
+                        terrainmap[i,j].parent.x = curPos.x;
+                        terrainmap[i,j].parent.y = curPos.y;
+                        Debug.Log("current position:"+ curPos + i + " " + j );
                     }
                 }
             }
@@ -177,6 +207,10 @@ public class tileautomate : MonoBehaviour
     void Update()
     {
         getStartandEnd();
+        if(!gameStart)
+        {
+            search();
+        }
         updateMap();
     }
 }
