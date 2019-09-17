@@ -651,14 +651,14 @@ MonoBehaviour:
   start_s: {fileID: 0}
   end_s: {fileID: 0}
   wall: {fileID: 0}
-  up: {fileID: 0}
-  down: {fileID: 0}
-  left: {fileID: 0}
-  right: {fileID: 0}
-  up_left: {fileID: 0}
-  up_right: {fileID: 0}
-  down_left: {fileID: 0}
-  down_right: {fileID: 0}
+  up: {fileID: 11400000, guid: 65cb62b6123e23343869631882eecb15, type: 2}
+  down: {fileID: 11400000, guid: 540f9327538948a4ca32fa2c7cbda0d0, type: 2}
+  left: {fileID: 11400000, guid: 3f2b2958bf26e0f4a941b2d234de5c4c, type: 2}
+  right: {fileID: 11400000, guid: c35e00afc4e7d1843af68782a5f1beff, type: 2}
+  up_left: {fileID: 11400000, guid: 59ab4596eb72ba343a6eaee3e187136e, type: 2}
+  up_right: {fileID: 11400000, guid: bbf59c8edd51ac0478c62ea241c102ff, type: 2}
+  down_left: {fileID: 11400000, guid: cfc5bf2fb7cd3de438c80e8004812b3e, type: 2}
+  down_right: {fileID: 11400000, guid: 22dba6485726e664996dfecda5a19e26, type: 2}
   none: {fileID: 0}
 --- !u!4 &1976160680
 Transform:

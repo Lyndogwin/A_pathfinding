@@ -134,6 +134,7 @@ public class tileautomate : MonoBehaviour
             for(int j = 0; j < height; j++)
             {
                 botMap.SetTile(new Vector3Int(i,j, 0), terrainmap[i,j].cur);
+                topMap.SetTile(new Vector3Int(i,j, 0), terrainmap[i,j].pointer);
                 //Debug.Log(new Vector3Int(-i + width / 2, -j + height / 2, 0));
             }
         }
@@ -191,19 +192,51 @@ public class tileautomate : MonoBehaviour
                     {
                         terrainmap[i,j].parent.x = curPos.x;
                         terrainmap[i,j].parent.y = curPos.y;
+                        switch(k)
+                        {
+                            case 0:
+                                terrainmap[i,j].pointer = right;
+                                break;
+                            case 1:
+                                terrainmap[i,j].pointer = up_right;
+                                break;
+                            case 2:
+                                terrainmap[i,j].pointer = up;
+                                break;
+                            case 3:
+                                terrainmap[i,j].pointer = up_left;
+                                break;
+                            case 4:
+                                terrainmap[i,j].pointer = left;
+                                break;
+                            case 5:
+                                terrainmap[i,j].pointer = down_left;
+                                break;
+                            case 6:
+                                terrainmap[i,j].pointer = down;
+                                break;
+                            case 7:
+                                terrainmap[i,j].pointer = down_right;
+                                break;
+                        }
+                        int e_dx = Math.Abs(endPos.x - curPos.x); 
+                        int e_dy = Math.Abs(endPos.y - curPos.y);
+                        int h = e_dx + e_dy;
                         Debug.Log("current position:"+ curPos + i + " " + j );
+                        Debug.Log("h value is: " + h);
                     }
                 }
             }
         }
     }
     
-    // Update is called once per frame
     void Start()
     {
         //Camera.main.orthograpthicSize = widthToBeSeen * Screen.height / Screen.width * 0.5;
         genMap();
     }
+    
+    // Update is called once per frame
     void Update()
     {
         getStartandEnd();
