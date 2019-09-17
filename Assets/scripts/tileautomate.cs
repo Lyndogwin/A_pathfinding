@@ -85,6 +85,8 @@ public class tileautomate : MonoBehaviour
         height = tmapsize.y;
         numTiles = width * height;
         numWallTiles = (int)(Math.Ceiling(numTiles * .1));
+        System.Random rnd = new System.Random();
+        //int counter = 0;
 
         terrainmap = new Node[width,height]; // initalize mapsize
         
@@ -95,6 +97,23 @@ public class tileautomate : MonoBehaviour
                 terrainmap[i,j] = new Node(0,0,std,none);
             }
         }
+        
+        for(int i = 0; i < numWallTiles; i++)
+        {
+            int []selector = new int[2];
+            selector[0] = rnd.Next(0,15);
+            selector[1] = rnd.Next(0,15);
+
+            if(terrainmap[selector[0],selector[1]].cur != wall)
+            {
+               terrainmap[selector[0],selector[1]].cur = wall;
+            }
+            else
+            {
+                --i;
+            }
+        }
+
 
         // check for proper dimensions and size at the console 
         if (terrainmap.Rank > 1) {
@@ -127,15 +146,18 @@ public class tileautomate : MonoBehaviour
             {
                 if(Input.GetMouseButtonDown(0))
                 {
-                    terrainmap[tilePos.x,tilePos.y].cur = start;
-                    startSelected = true;
+                    if(terrainmap[tilePos.x,tilePos.y].cur != wall)
+                    {
+                        terrainmap[tilePos.x,tilePos.y].cur = start;
+                        startSelected = true;
+                    }
                 }
             }
             else if(!endSelected)
             {
                 if(Input.GetMouseButtonDown(0))
                 {
-                    if(terrainmap[tilePos.x,tilePos.y].cur != start)
+                    if((terrainmap[tilePos.x,tilePos.y].cur != start) && (terrainmap[tilePos.x,tilePos.y].cur != wall))
                     {
                         terrainmap[tilePos.x,tilePos.y].cur = end;
                         endSelected = true;
