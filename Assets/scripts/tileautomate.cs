@@ -20,12 +20,18 @@ public class tileautomate : MonoBehaviour
         public Tile cur; // will reprsent state
         public Tile pointer; 
         public Pos parent;
+        public int f;
+        public int g;
+        public int h;
         public Node(int x, int y, Tile t, Tile s)
         {
             parent.x = x;
             parent.y = y;
             cur = t;
             pointer = s;
+            f = 0;
+            g = 0;
+            h = 0;
         }
     }
 
@@ -178,6 +184,8 @@ public class tileautomate : MonoBehaviour
     
     public void search()
     {
+        int s_move = 10;
+        int d_move = 14;
         int [,]moves = new int[8,2] {{curPos.x -1,curPos.y}, {curPos.x -1,curPos.y -1}, 
                         {curPos.x,curPos.y -1}, {curPos.x +1,curPos.y -1}, 
                         {curPos.x +1,curPos.y}, {curPos.x +1,curPos.y +1}, 
@@ -196,34 +204,45 @@ public class tileautomate : MonoBehaviour
                         {
                             case 0:
                                 terrainmap[i,j].pointer = right;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
                                 break;
                             case 1:
                                 terrainmap[i,j].pointer = up_right;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
                                 break;
                             case 2:
                                 terrainmap[i,j].pointer = up;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
                                 break;
                             case 3:
                                 terrainmap[i,j].pointer = up_left;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
                                 break;
                             case 4:
                                 terrainmap[i,j].pointer = left;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
                                 break;
                             case 5:
                                 terrainmap[i,j].pointer = down_left;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
                                 break;
                             case 6:
                                 terrainmap[i,j].pointer = down;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
                                 break;
                             case 7:
                                 terrainmap[i,j].pointer = down_right;
+                                terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
                                 break;
                         }
-                        int e_dx = Math.Abs(endPos.x - curPos.x); 
-                        int e_dy = Math.Abs(endPos.y - curPos.y);
-                        int h = e_dx + e_dy;
+                        int e_dx = Math.Abs(endPos.x - i); 
+                        int e_dy = Math.Abs(endPos.y - j);
+                        terrainmap[i,j].h = e_dx + e_dy;
+                        terrainmap[i,j].f = terrainmap[i,j].g + terrainmap[i,j].h;
                         Debug.Log("current position:"+ curPos + i + " " + j );
-                        Debug.Log("h value is: " + h);
+                        Debug.Log("h value is: " + terrainmap[i,j].h);
+                        Debug.Log("g value is: " + terrainmap[i,j].g);
+                        Debug.Log("f value is: " + terrainmap[i,j].f);
                     }
                 }
             }

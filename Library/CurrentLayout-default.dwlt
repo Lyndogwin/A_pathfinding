@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 394}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,10 +44,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 494}
-  m_MaxSize: {x: 14004, y: 14044}
+  m_MinSize: {x: 681, y: 344}
+  m_MaxSize: {x: 12006, y: 8044}
   vertical: 0
-  controlID: 112
+  controlID: 31
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -67,11 +67,11 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 947
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &4
@@ -95,9 +95,9 @@ MonoBehaviour:
     height: 573
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -119,15 +119,16 @@ MonoBehaviour:
     y: 573
     width: 1531
     height: 374
-  m_MinSize: {x: 232, y: 272}
-  m_MaxSize: {x: 10002, y: 10022}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 14}
-  - {fileID: 19}
+  - {fileID: 15}
+  - {fileID: 20}
+  - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -216,10 +217,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 947
-  m_MinSize: {x: 406, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 406, y: 344}
+  m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 113
+  controlID: 32
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +245,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 114
+  controlID: 33
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,14 +267,45 @@ MonoBehaviour:
     height: 573
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
-  - {fileID: 13}
+  - {fileID: 19}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 646
+    width: 1531
+    height: 355
+  m_ViewDataDictionary: {fileID: 0}
+  m_PreviewResizer:
+    m_CachedPref: 50
+    m_ControlHash: 1964396721
+    m_PrefName: Preview_TilemapBrushInspector
+  m_Palette: {fileID: 6823051055199673974, guid: c93de7691e8f0e549901ed50a42b7adc,
+    type: 3}
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,7 +332,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Sep 17, 12:42
+    lastUpdateTime: Sep 17, 19:31
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -70960,9 +70992,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -70999,6 +71031,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71022,6 +71055,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71038,7 +71072,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71059,9 +71093,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71098,6 +71132,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71121,6 +71156,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71137,7 +71173,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71158,9 +71194,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71197,6 +71233,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71220,6 +71257,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71236,7 +71274,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71257,9 +71295,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71296,6 +71334,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71319,6 +71358,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71335,7 +71375,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71356,9 +71396,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71395,6 +71435,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71418,6 +71459,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71434,7 +71476,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71455,9 +71497,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71494,6 +71536,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71517,6 +71560,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71533,7 +71577,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71554,9 +71598,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71593,6 +71637,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71616,6 +71661,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71632,7 +71678,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71653,9 +71699,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71692,6 +71738,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71715,6 +71762,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71731,7 +71779,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71752,9 +71800,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71791,6 +71839,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71814,6 +71863,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71830,7 +71880,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71851,9 +71901,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71890,6 +71940,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -71913,6 +71964,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -71929,7 +71981,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -71950,9 +72002,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -71989,6 +72041,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72012,6 +72065,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72028,7 +72082,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72049,9 +72103,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72088,6 +72142,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72111,6 +72166,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72127,7 +72183,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72148,9 +72204,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72187,6 +72243,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72210,6 +72267,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72226,7 +72284,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72247,9 +72305,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72286,6 +72344,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72309,6 +72368,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72325,7 +72385,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72346,9 +72406,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72385,6 +72445,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72408,6 +72469,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72424,7 +72486,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72445,9 +72507,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72484,6 +72546,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72507,6 +72570,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72523,7 +72587,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72544,9 +72608,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72583,6 +72647,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72606,6 +72671,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72622,7 +72688,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72643,9 +72709,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72682,6 +72748,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72705,6 +72772,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72721,7 +72789,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72742,9 +72810,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72781,6 +72849,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72804,6 +72873,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72820,7 +72890,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72841,9 +72911,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72880,6 +72950,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -72903,6 +72974,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -72919,7 +72991,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
@@ -72940,9 +73012,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -72979,6 +73051,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -73002,6 +73075,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -73018,11 +73092,112 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.package-validation-suite
       DisplayName: Package Validation Suite
       _Version: 0.7.3-preview
+      Description: Unity Package Manager validation suite, used to evaluate a package's
+        integrity before it's considered for publishing.  This is a Unity internal
+        tool at the moment, no support will be provided for this package.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.7.4-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.package-validation-suite
+        m_Name: com.unity.package-validation-suite
+        m_DisplayName: Package Validation Suite
+        m_Category: 
+        m_Type: 
+        m_Description: Unity Package Manager validation suite, used to evaluate a
+          package's integrity before it's considered for publishing.  This is a Unity
+          internal tool at the moment, no support will be provided for this package.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.4.0-preview.6
+          - 0.4.0-preview.8
+          - 0.4.0-preview.11
+          - 0.4.0-preview.12
+          - 0.4.0-preview.14
+          - 0.4.0-preview.18
+          - 0.4.0-preview.19
+          - 0.4.0-preview.21
+          - 0.4.0-preview.23
+          - 0.4.0-preview.24
+          - 0.4.0-preview.25
+          - 0.4.0-preview.26
+          - 0.4.0-preview.27
+          - 0.4.0-preview.28
+          - 0.5.0-preview
+          - 0.5.1-preview
+          - 0.5.2-preview
+          - 0.6.0-preview
+          - 0.6.1-preview
+          - 0.7.1-preview
+          - 0.7.2-preview
+          - 0.7.3-preview
+          - 0.7.4-preview
+          m_Compatible:
+          - 0.4.0-preview.6
+          - 0.4.0-preview.8
+          - 0.4.0-preview.11
+          - 0.4.0-preview.12
+          - 0.4.0-preview.14
+          - 0.4.0-preview.18
+          - 0.4.0-preview.19
+          - 0.4.0-preview.21
+          - 0.4.0-preview.23
+          - 0.4.0-preview.24
+          - 0.4.0-preview.25
+          - 0.4.0-preview.26
+          - 0.4.0-preview.27
+          - 0.4.0-preview.28
+          - 0.5.0-preview
+          - 0.5.1-preview
+          - 0.5.2-preview
+          - 0.6.0-preview
+          - 0.6.1-preview
+          - 0.7.1-preview
+          - 0.7.2-preview
+          - 0.7.3-preview
+          - 0.7.4-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: nuget.mono-cecil
+          m_Version: 0.1.6-preview
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637043545540000000
+      IsInstalled: 0
+    - Name: com.unity.package-validation-suite
+      DisplayName: Package Validation Suite
+      _Version: 0.7.4-preview
       Description: Unity Package Manager validation suite, used to evaluate a package's
         integrity before it's considered for publishing.  This is a Unity internal
         tool at the moment, no support will be provided for this package.
@@ -73039,9 +73214,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.package-validation-suite@0.7.3-preview
+        m_PackageId: com.unity.package-validation-suite@0.7.4-preview
         m_IsDirectDependency: 0
-        m_Version: 0.7.3-preview
+        m_Version: 0.7.4-preview
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.package-validation-suite
@@ -73078,6 +73253,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Compatible:
           - 0.4.0-preview.6
           - 0.4.0-preview.8
@@ -73101,6 +73277,7 @@ MonoBehaviour:
           - 0.7.1-preview
           - 0.7.2-preview
           - 0.7.3-preview
+          - 0.7.4-preview
           m_Recommended: 
         m_Dependencies:
         - m_Name: nuget.mono-cecil
@@ -73117,7 +73294,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637038185550000000
+        m_DatePublishedTicks: 637043545540000000
       IsInstalled: 0
     - Name: com.unity.performance.profile-analyzer
       DisplayName: Profile Analyzer
@@ -107695,9 +107872,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.oculus.android@1.38.2
+        m_PackageId: com.unity.xr.oculus.android@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.android
@@ -107722,10 +107899,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -107750,7 +107929,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034830000000
+        m_DatePublishedTicks: 637043367040000000
       IsInstalled: 0
     - Name: com.unity.xr.oculus.android
       DisplayName: Oculus Android
@@ -107771,9 +107950,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.oculus.android@1.38.2
+        m_PackageId: com.unity.xr.oculus.android@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.android
@@ -107798,10 +107977,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -107826,11 +108007,89 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034830000000
+        m_DatePublishedTicks: 637043367040000000
       IsInstalled: 0
     - Name: com.unity.xr.oculus.android
       DisplayName: Oculus Android
       _Version: 1.38.2
+      Description: This package contains the necessary components required to use
+        the Oculus Virtual Reality SDK on Android. By using this package, you will
+        be able to deploy and run your applications on Oculus supported devices.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.oculus.android@1.38.3
+        m_IsDirectDependency: 0
+        m_Version: 1.38.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.oculus.android
+        m_Name: com.unity.xr.oculus.android
+        m_DisplayName: Oculus Android
+        m_Category: 
+        m_Type: 
+        m_Description: This package contains the necessary components required to
+          use the Oculus Virtual Reality SDK on Android. By using this package, you
+          will be able to deploy and run your applications on Oculus supported devices.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.24.0
+          - 1.24.1
+          - 1.24.2
+          - 1.28.0
+          - 1.28.1
+          - 1.29.0
+          - 1.29.1
+          - 1.36.0
+          - 1.38.1
+          - 1.38.2
+          - 1.38.3
+          m_Compatible:
+          - 1.36.0
+          - 1.38.1
+          - 1.38.2
+          - 1.38.3
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - oculus
+        - xr
+        - vr
+        - virtual
+        - gear
+        - gearvr
+        - go
+        - quest
+        - sdk
+        - android
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637043367040000000
+      IsInstalled: 0
+    - Name: com.unity.xr.oculus.android
+      DisplayName: Oculus Android
+      _Version: 1.38.3
       Description: This package contains the necessary components required to use
         the Oculus Virtual Reality SDK on Android. By using this package, you will
         be able to deploy and run your applications on Oculus supported devices.
@@ -107847,9 +108106,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.xr.oculus.android@1.38.2
+        m_PackageId: com.unity.xr.oculus.android@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.android
@@ -107874,10 +108133,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -107902,7 +108163,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034830000000
+        m_DatePublishedTicks: 637043367040000000
       IsInstalled: 0
     - Name: com.unity.xr.oculus.standalone
       DisplayName: Oculus Desktop
@@ -107923,9 +108184,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.oculus.standalone@1.38.2
+        m_PackageId: com.unity.xr.oculus.standalone@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.standalone
@@ -107951,10 +108212,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -107977,7 +108240,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034890000000
+        m_DatePublishedTicks: 637043367120000000
       IsInstalled: 0
     - Name: com.unity.xr.oculus.standalone
       DisplayName: Oculus Desktop
@@ -107998,9 +108261,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.xr.oculus.standalone@1.38.2
+        m_PackageId: com.unity.xr.oculus.standalone@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.standalone
@@ -108026,10 +108289,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -108052,11 +108317,88 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034890000000
+        m_DatePublishedTicks: 637043367120000000
       IsInstalled: 0
     - Name: com.unity.xr.oculus.standalone
       DisplayName: Oculus Desktop
       _Version: 1.38.2
+      Description: This package contains the necessary components required to use
+        the Oculus Virtual Reality SDK on desktop platforms. By using this package,
+        you will be able to deploy and run your applications on Oculus supported devices.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.xr.oculus.standalone@1.38.3
+        m_IsDirectDependency: 0
+        m_Version: 1.38.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.xr.oculus.standalone
+        m_Name: com.unity.xr.oculus.standalone
+        m_DisplayName: Oculus Desktop
+        m_Category: 
+        m_Type: 
+        m_Description: This package contains the necessary components required to
+          use the Oculus Virtual Reality SDK on desktop platforms. By using this package,
+          you will be able to deploy and run your applications on Oculus supported
+          devices.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.24.0
+          - 1.24.1
+          - 1.24.2
+          - 1.28.0
+          - 1.28.1
+          - 1.29.0
+          - 1.29.1
+          - 1.36.0
+          - 1.38.1
+          - 1.38.2
+          - 1.38.3
+          m_Compatible:
+          - 1.36.0
+          - 1.38.1
+          - 1.38.2
+          - 1.38.3
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - oculus
+        - xr
+        - vr
+        - virtual
+        - sdk
+        - standalone
+        - desktop
+        - rift
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637043367120000000
+      IsInstalled: 0
+    - Name: com.unity.xr.oculus.standalone
+      DisplayName: Oculus Desktop
+      _Version: 1.38.3
       Description: This package contains the necessary components required to use
         the Oculus Virtual Reality SDK on desktop platforms. By using this package,
         you will be able to deploy and run your applications on Oculus supported devices.
@@ -108073,9 +108415,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.xr.oculus.standalone@1.38.2
+        m_PackageId: com.unity.xr.oculus.standalone@1.38.3
         m_IsDirectDependency: 0
-        m_Version: 1.38.2
+        m_Version: 1.38.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.xr.oculus.standalone
@@ -108101,10 +108443,12 @@ MonoBehaviour:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Compatible:
           - 1.36.0
           - 1.38.1
           - 1.38.2
+          - 1.38.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -108127,7 +108471,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637015034890000000
+        m_DatePublishedTicks: 637043367120000000
       IsInstalled: 0
     - Name: com.unity.xr.openvr.standalone
       DisplayName: OpenVR (Desktop)
@@ -109174,8 +109518,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 8
-    listPackagesOfflineVersion: 7
+    listPackagesVersion: 23
+    listPackagesOfflineVersion: 22
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -109538,9 +109882,25 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.2d.tilemap.extras@1.1.0
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.xr.oculus.android@1.38.3
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.xr.oculus.standalone@1.38.3
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.package-validation-suite@0.7.4-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
     BuiltInSelection:
       States: []
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109566,7 +109926,7 @@ MonoBehaviour:
     width: 973
     height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109615,10 +109975,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 28}
-    m_SelectedIDs: 785e0000
-    m_LastClickedID: 24184
-    m_ExpandedIDs: 00000000e451000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 9c310000
+    m_LastClickedID: 12700
+    m_ExpandedIDs: 000000006430000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -109646,7 +110006,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e4510000
+    m_ExpandedIDs: 0000000064300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -109674,7 +110034,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000016570000162f0000122f00007c0b000000000000
+    m_ExpandedInstanceIDs: c623000016570000162f0000122f00007c0b0000000000004a35000022310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -109702,7 +110062,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 218
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109738,7 +110098,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109767,9 +110127,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7ecbffff
-      m_LastClickedID: -13442
-      m_ExpandedIDs: acdbffffda560000e0560000f0560000fc560000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 74fbffff183700001e370000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -109793,7 +110153,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: a1fb47fb09836fb4ca51de9567166f88
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109829,9 +110189,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.24908, y: -0.21134743, z: -3694.501}
+    m_Target: {x: 10.785807, y: 6.6702194, z: -3697.9944}
     speed: 2
-    m_Value: {x: 2.24908, y: -0.21134743, z: -3694.501}
+    m_Value: {x: 10.785807, y: 6.6702194, z: -3697.9944}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -109864,9 +110224,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 11.521573
+    m_Target: 18.087124
     speed: 2
-    m_Value: 11.521573
+    m_Value: 18.087124
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -109892,7 +110252,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109973,7 +110333,7 @@ MonoBehaviour:
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
