@@ -262,11 +262,6 @@ public class tileautomate : MonoBehaviour
             {
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
-                if(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))
-                {
-                    Debug.Log("<color=yellow> Alert: </color>Adding a new node to openList");
-                    openList.Add(new Ref<Node> {Value = terrainmap[i,j]}); // add if not in openList
-                }
                 switch(k)
                 {
                     case 0:
@@ -302,11 +297,11 @@ public class tileautomate : MonoBehaviour
                         terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
                         break;
                 }
-                /* 
                 int e_dx = Math.Abs(endPos.x - i); 
                 int e_dy = Math.Abs(endPos.y - j);
                 terrainmap[i,j].h = (e_dx + e_dy)*10;
                 terrainmap[i,j].f = terrainmap[i,j].g + terrainmap[i,j].h;
+                /* 
                 Debug.Log("current position:"+ curPos + i + " " + j );
                 Debug.Log("h value is: " + terrainmap[i,j].h);
                 Debug.Log("g value is: " + terrainmap[i,j].g);
@@ -315,6 +310,11 @@ public class tileautomate : MonoBehaviour
                 Debug.Log("g copy value is: " + openList[openList.Count - 1].g);
                 Debug.Log("f copy value is: " + openList[openList.Count - 1].f);
                 */
+                if(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))
+                {
+                    Debug.Log("<color=yellow> Alert: </color>Adding a new node to openList");
+                    openList.Add(new Ref<Node> {Value = terrainmap[i,j]}); // add if not in openList
+                }
             }
         }
         if(curPos.x == startPos.x && curPos.y == startPos.y)
@@ -351,17 +351,17 @@ public class tileautomate : MonoBehaviour
             // loop through the openList of structs "Node" and calculate the f value
             foreach (Ref<Node> i in openList)
             {
+                /* 
                 int e_dx = Math.Abs(endPos.x - i.Value.myPos.x); 
                 int e_dy = Math.Abs(endPos.y - i.Value.myPos.y);
                 terrainmap[i.Value.myPos.x,i.Value.myPos.y].h = (e_dx + e_dy)*10;
                 terrainmap[i.Value.myPos.x,i.Value.myPos.y].f = terrainmap[i.Value.myPos.x,i.Value.myPos.y].g + terrainmap[i.Value.myPos.x,i.Value.myPos.y].h;
+                */
                 Debug.Log("<color=green>f here is "+ i.Value.f+"</color>"); //references are working if changes are noticable
                 Debug.Log("position is "+ i.Value.myPos.x + "," + i.Value.myPos.y);
                 Debug.Log("parent position is "+ i.Value.parent.x + "," + i.Value.parent.y);
-                if(i.Value.f <= lowest_f.Value.f)
-                /* 
                 
-                */
+                if(i.Value.f <= lowest_f.Value.f)
                 {
                     lowest_f = i;
                 }
