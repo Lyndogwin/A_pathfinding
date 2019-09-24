@@ -102,6 +102,7 @@ public class tileautomate : MonoBehaviour
     bool startSelected = false;
     bool endSelected = false;
     bool pathFound = false;
+    bool unpathable = false;
 
     public void genMap()
     {
@@ -347,6 +348,9 @@ public class tileautomate : MonoBehaviour
                 //Debug.Log("<color=green>Success! </color>removed current node from open list");
             }
         }
+        if(openList.Count == 0){
+            unpathable = true;
+        }
        
         if(terrainmap[curPos.x,curPos.y].cur != end_s) //may be problematic
         {
@@ -409,13 +413,26 @@ public class tileautomate : MonoBehaviour
     void Update()
     {
         getStartandEnd();
-        if(!gameStart && !pathFound)
+        if(!gameStart && !pathFound && !unpathable)
         {
             search();
         }
         if(pathFound)
         {
             tracePath();
+        }
+        if(unpathable)
+        {
+            Debug.Log("<color=purple> no path can be determined </color>");
+            if(Input.GetMouseButtonDown(0))
+            {
+                gameStart = true;
+                pathFound = false;
+                endSelected = false;
+                startSelected = false;
+                unpathable = false;
+                genMap();
+            }
         }
         
         updateMap();
