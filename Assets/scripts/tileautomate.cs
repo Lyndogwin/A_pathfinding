@@ -30,8 +30,8 @@ public class tileautomate : MonoBehaviour
             pointer = s;
             myPos.x = w;
             myPos.y = r;
-            parent.x = 500;
-            parent.y = 500;
+            parent.x = 0;
+            parent.y = 0;
             f = 500;
             g = 0;
             h = 0;
@@ -45,9 +45,9 @@ public class tileautomate : MonoBehaviour
         public T Value {get; set;}
     }
 
+    private List<Ref<Node>> openList;
+    private List<Ref<Node>> closedList;
     private Node[,] terrainmap;
-    private List<Ref<Node>> openList = new List<Ref<Node>>();
-    private List<Ref<Node>> closedList = new List<Ref<Node>>();
     private Vector3Int startPos;
     private Vector3Int endPos;
     private Vector3Int curPos;
@@ -67,6 +67,7 @@ public class tileautomate : MonoBehaviour
     public Tile start_s;
     public Tile end_s;
     public Tile wall;
+    public Tile select_p;
 
     // The folling tiles will represent parent pointers
     public Tile up;
@@ -111,7 +112,8 @@ public class tileautomate : MonoBehaviour
         System.Random rnd = new System.Random();
 
         terrainmap = new Node[width,height]; // initalize mapsize
-        
+        openList = new List<Ref<Node>>();
+        closedList = new List<Ref<Node>>();
         for(int i = 0; i < width; i++)
         {
             for(int j = 0; j < height; j++)
@@ -257,9 +259,11 @@ public class tileautomate : MonoBehaviour
             }
             
             //Debug.Log("<color=red>"+(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))+"</color>");
-            if((terrainmap[curPos.x,curPos.y].cur == start) || (!openList.Exists(p => p.Value.Equals(terrainmap[i,j]))) ||
+            if((terrainmap[curPos.x,curPos.y].myPos.x == startPos.x && terrainmap[curPos.x,curPos.y].myPos.y == startPos.y ) || 
+                (!openList.Exists(p => p.Value.Equals(terrainmap[i,j]))) ||
                 (terrainmap[curPos.x,curPos.y].g < terrainmap[terrainmap[i,j].parent.x, terrainmap[i,j].parent.y].g))
             {
+                Debug.Log("<color=green> conditions met to change parent to "+curPos+"</color>");
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
                 switch(k)
@@ -331,6 +335,7 @@ public class tileautomate : MonoBehaviour
             terrainmap[curPos.x,curPos.y].cur = select;
         }
 
+        
         closedList.Add(new Ref<Node> {Value = terrainmap[curPos.x,curPos.y]});
         
         foreach (Ref<Node> i in openList)
@@ -342,7 +347,6 @@ public class tileautomate : MonoBehaviour
                 //Debug.Log("<color=green>Success! </color>removed current node from open list");
             }
         }
-        
        
         if(terrainmap[curPos.x,curPos.y].cur != end_s) //may be problematic
         {
@@ -361,7 +365,7 @@ public class tileautomate : MonoBehaviour
                 Debug.Log("position is "+ i.Value.myPos.x + "," + i.Value.myPos.y);
                 Debug.Log("parent position is "+ i.Value.parent.x + "," + i.Value.parent.y);
                 
-                if(i.Value.f <= lowest_f.Value.f)
+                if(i.Value.f < lowest_f.Value.f)//this will greatly effect decision making
                 {
                     lowest_f = i;
                 }
@@ -370,6 +374,29 @@ public class tileautomate : MonoBehaviour
             Debug.Log("---------------------------");
             curPos.x = lowest_f.Value.myPos.x;
             curPos.y = lowest_f.Value.myPos.y;
+        }
+    }
+    public void tracePath()
+    {
+        if(terrainmap[curPos.x,curPos.y].myPos.x != startPos.x && terrainmap[curPos.x,curPos.y].myPos.y != startPos.y)
+        {
+            if(terrainmap[curPos.x,curPos.y].myPos.x != endPos.x && terrainmap[curPos.x,curPos.y].myPos.y != endPos.y)
+            {
+                terrainmap[curPos.x,curPos.y].cur = select_p;
+            }
+            curPos.x = terrainmap[curPos.x,curPos.y].parent.x;
+            curPos.y = terrainmap[curPos.x,curPos.y].parent.y;
+        }
+        else 
+        {
+            if(Input.GetMouseButtonDown(0))
+            {
+                gameStart = true;
+                pathFound = false;
+                endSelected = false;
+                startSelected = false;
+                genMap();
+            }
         }
     }
     
@@ -386,6 +413,11 @@ public class tileautomate : MonoBehaviour
         {
             search();
         }
+        if(pathFound)
+        {
+            tracePath();
+        }
+        
         updateMap();
     }
 }
