@@ -644,12 +644,12 @@ MonoBehaviour:
   botMap: {fileID: 457269314}
   topMap: {fileID: 1000223411}
   tileGrid: {fileID: 14138203}
-  select: {fileID: 0}
+  select: {fileID: 11400000, guid: f8bb66a609a6487489675d0142d91983, type: 2}
   std: {fileID: 11400000, guid: 5f6bbafb2f45ecb4b864fb0dfd723a19, type: 2}
   start: {fileID: 11400000, guid: 3dda97be45cde6340b1639daff980ddf, type: 2}
   end: {fileID: 11400000, guid: afe005ce2e45b81438656b58ede2d4f0, type: 2}
-  start_s: {fileID: 0}
-  end_s: {fileID: 0}
+  start_s: {fileID: 11400000, guid: ac769894c2e103a4d94f2236b3ff2f12, type: 2}
+  end_s: {fileID: 11400000, guid: 23a977b329342cc4f85f6c039b603358, type: 2}
   wall: {fileID: 0}
   up: {fileID: 11400000, guid: 65cb62b6123e23343869631882eecb15, type: 2}
   down: {fileID: 11400000, guid: 540f9327538948a4ca32fa2c7cbda0d0, type: 2}
