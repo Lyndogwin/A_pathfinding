@@ -264,7 +264,7 @@ public class tileautomate : MonoBehaviour
                 (!openList.Exists(p => p.Value.Equals(terrainmap[i,j]))) ||
                 (terrainmap[curPos.x,curPos.y].g < terrainmap[terrainmap[i,j].parent.x, terrainmap[i,j].parent.y].g))
             {
-                Debug.Log("<color=green> conditions met to change parent to "+curPos+"</color>");
+                Debug.Log("<color=green> conditions met to change parent to "+curPos+" at "+i+","+j+"</color>");
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
                 switch(k)
@@ -382,9 +382,9 @@ public class tileautomate : MonoBehaviour
     }
     public void tracePath()
     {
-        if(terrainmap[curPos.x,curPos.y].myPos.x != startPos.x && terrainmap[curPos.x,curPos.y].myPos.y != startPos.y)
+        if((curPos.x != startPos.x) && (curPos.y != startPos.y))
         {
-            if(terrainmap[curPos.x,curPos.y].myPos.x != endPos.x && terrainmap[curPos.x,curPos.y].myPos.y != endPos.y)
+            if((curPos.x != endPos.x) && (curPos.y != endPos.y))
             {
                 terrainmap[curPos.x,curPos.y].cur = select_p;
             }

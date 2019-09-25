@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 394}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 344}
   m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 116
+  controlID: 56
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,9 +63,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1531
+    x: 1553
     y: 0
-    width: 389
+    width: 367
     height: 947
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
@@ -91,10 +91,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 379
-    height: 573
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+    width: 387
+    height: 548
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -116,9 +116,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 573
-    width: 1531
-    height: 374
+    y: 548
+    width: 1553
+    height: 399
   m_MinSize: {x: 102, y: 122}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 20}
@@ -215,7 +215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
+    width: 1553
     height: 947
   m_MinSize: {x: 406, y: 344}
   m_MaxSize: {x: 8006, y: 8044}
@@ -240,8 +240,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1531
-    height: 573
+    width: 1553
+    height: 548
   m_MinSize: {x: 406, y: 222}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
@@ -261,19 +261,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 379
+    x: 387
     y: 0
-    width: 1152
-    height: 573
+    width: 1166
+    height: 548
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 18}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Sep 23, 01:14
+    lastUpdateTime: Sep 24, 20:11
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -6468,10 +6468,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -6561,10 +6563,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -6606,6 +6610,101 @@ MonoBehaviour:
     - Name: com.unity.cinemachine
       DisplayName: Cinemachine
       _Version: 2.3.5-preview.3
+      Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete the
+        Cinemachine asset from your project BEFORE installing this version from the
+        Package Manager."
+      Category: cinematography
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.cinemachine@2.3.4
+        m_IsDirectDependency: 1
+        m_Version: 2.3.4
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_AssetPath: Packages/com.unity.cinemachine
+        m_Name: com.unity.cinemachine
+        m_DisplayName: Cinemachine
+        m_Category: cinematography
+        m_Type: 
+        m_Description: "Smart camera tools for passionate creators. \n\nIMPORTANT
+          NOTE: If you are upgrading from the Asset Store version of Cinemachine,
+          delete the Cinemachine asset from your project BEFORE installing this version
+          from the Package Manager."
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 2.1.11-beta.1
+          - 2.1.12
+          - 2.1.13
+          - 2.2.0
+          - 2.2.7
+          - 2.2.8
+          - 2.2.9
+          - 2.2.10-preview.3
+          - 2.2.10-preview.4
+          - 2.3.1
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Compatible:
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - camera
+        - follow
+        - rig
+        - fps
+        - cinematography
+        - aim
+        - orbit
+        - cutscene
+        - cinematic
+        - collision
+        - freelook
+        - cinemachine
+        - compose
+        - composition
+        - dolly
+        - track
+        - clearshot
+        - noise
+        - framing
+        - handheld
+        - lens
+        - impulse
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636942204440000000
+      IsInstalled: 0
+    - Name: com.unity.cinemachine
+      DisplayName: Cinemachine
+      _Version: 2.4.0-preview.3
       Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
         If you are upgrading from the Asset Store version of Cinemachine, delete the
         Cinemachine asset from your project BEFORE installing this version from the
@@ -6654,10 +6753,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -7321,7 +7422,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7354,13 +7455,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -7387,7 +7490,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7420,13 +7523,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -7453,7 +7558,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -7486,13 +7591,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -7519,13 +7626,13 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 1
+      IsVerified: 0
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -7552,13 +7659,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -7578,6 +7687,74 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637001065180000000
       IsInstalled: 1
+    - Name: com.unity.ide.rider
+      DisplayName: Rider Editor
+      _Version: 1.1.1
+      Description: Code editor integration for supporting Rider as code editor for
+        unity. Adds support for generating csproj files for code completion, auto
+        discovery of installations, etc.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.rider@1.1.0
+        m_IsDirectDependency: 1
+        m_Version: 1.1.0
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_AssetPath: Packages/com.unity.ide.rider
+        m_Name: com.unity.ide.rider
+        m_DisplayName: Rider Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Rider as code editor
+          for unity. Adds support for generating csproj files for code completion,
+          auto discovery of installations, etc.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2-preview
+          m_Compatible:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
+        m_Dependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637001065180000000
+      IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
       _Version: 1.0.2
@@ -11324,6 +11501,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11340,6 +11518,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11410,6 +11589,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11426,6 +11606,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11496,6 +11677,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11512,6 +11694,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11582,6 +11765,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11598,6 +11782,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11668,6 +11853,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11684,6 +11870,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11754,6 +11941,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11770,6 +11958,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11840,6 +12029,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11856,6 +12046,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -11926,6 +12117,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -11942,6 +12134,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12012,6 +12205,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12028,6 +12222,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12098,6 +12293,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12114,6 +12310,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12184,6 +12381,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12200,6 +12398,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12270,6 +12469,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12286,6 +12486,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12356,6 +12557,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12372,6 +12574,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12442,6 +12645,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12458,6 +12662,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -12483,6 +12688,94 @@ MonoBehaviour:
     - Name: com.unity.test-framework
       DisplayName: Test Framework
       _Version: 1.1.2
+      Description: Test framework for running Edit mode and Play mode test in Unity.
+      Category: Unity Test Framework
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.test-framework@1.0.13
+        m_IsDirectDependency: 1
+        m_Version: 1.0.13
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_AssetPath: Packages/com.unity.test-framework
+        m_Name: com.unity.test-framework
+        m_DisplayName: Test Framework
+        m_Category: Unity Test Framework
+        m_Type: 
+        m_Description: Test framework for running Edit mode and Play mode test in
+          Unity.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Compatible:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Recommended: 1.0.18
+        m_Dependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_Keywords:
+        - Test
+        - TestFramework
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636929353520000000
+      IsInstalled: 0
+    - Name: com.unity.test-framework
+      DisplayName: Test Framework
+      _Version: 1.1.3
       Description: Test framework for running Edit mode and Play mode test in Unity.
       Category: Unity Test Framework
       State: 1
@@ -12528,6 +12821,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -12544,6 +12838,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -25241,10 +25536,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -25334,10 +25631,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -25379,6 +25678,101 @@ MonoBehaviour:
     - Name: com.unity.cinemachine
       DisplayName: Cinemachine
       _Version: 2.3.5-preview.3
+      Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete the
+        Cinemachine asset from your project BEFORE installing this version from the
+        Package Manager."
+      Category: cinematography
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.cinemachine@2.3.4
+        m_IsDirectDependency: 1
+        m_Version: 2.3.4
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_AssetPath: Packages/com.unity.cinemachine
+        m_Name: com.unity.cinemachine
+        m_DisplayName: Cinemachine
+        m_Category: cinematography
+        m_Type: 
+        m_Description: "Smart camera tools for passionate creators. \n\nIMPORTANT
+          NOTE: If you are upgrading from the Asset Store version of Cinemachine,
+          delete the Cinemachine asset from your project BEFORE installing this version
+          from the Package Manager."
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 2.1.11-beta.1
+          - 2.1.12
+          - 2.1.13
+          - 2.2.0
+          - 2.2.7
+          - 2.2.8
+          - 2.2.9
+          - 2.2.10-preview.3
+          - 2.2.10-preview.4
+          - 2.3.1
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Compatible:
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - camera
+        - follow
+        - rig
+        - fps
+        - cinematography
+        - aim
+        - orbit
+        - cutscene
+        - cinematic
+        - collision
+        - freelook
+        - cinemachine
+        - compose
+        - composition
+        - dolly
+        - track
+        - clearshot
+        - noise
+        - framing
+        - handheld
+        - lens
+        - impulse
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636942204440000000
+      IsInstalled: 0
+    - Name: com.unity.cinemachine
+      DisplayName: Cinemachine
+      _Version: 2.4.0-preview.3
       Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
         If you are upgrading from the Asset Store version of Cinemachine, delete the
         Cinemachine asset from your project BEFORE installing this version from the
@@ -25427,10 +25821,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -26094,7 +26490,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -26127,13 +26523,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -26160,7 +26558,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -26193,13 +26591,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -26226,7 +26626,7 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -26259,13 +26659,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -26292,13 +26694,13 @@ MonoBehaviour:
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
       Category: 
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
       Errors: []
-      IsVerified: 1
+      IsVerified: 0
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
@@ -26325,13 +26727,15 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
           m_Version: 1.0.0
@@ -26351,6 +26755,74 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637001065180000000
       IsInstalled: 1
+    - Name: com.unity.ide.rider
+      DisplayName: Rider Editor
+      _Version: 1.1.1
+      Description: Code editor integration for supporting Rider as code editor for
+        unity. Adds support for generating csproj files for code completion, auto
+        discovery of installations, etc.
+      Category: 
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.rider@1.1.0
+        m_IsDirectDependency: 1
+        m_Version: 1.1.0
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_AssetPath: Packages/com.unity.ide.rider
+        m_Name: com.unity.ide.rider
+        m_DisplayName: Rider Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Rider as code editor
+          for unity. Adds support for generating csproj files for code completion,
+          auto discovery of installations, etc.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2-preview
+          m_Compatible:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
+        m_Dependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637001065180000000
+      IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
       _Version: 1.0.2
@@ -30097,6 +30569,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30113,6 +30586,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30183,6 +30657,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30199,6 +30674,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30269,6 +30745,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30285,6 +30762,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30355,6 +30833,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30371,6 +30850,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30441,6 +30921,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30457,6 +30938,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30527,6 +31009,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30543,6 +31026,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30613,6 +31097,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30629,6 +31114,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30699,6 +31185,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30715,6 +31202,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30785,6 +31273,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30801,6 +31290,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30871,6 +31361,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30887,6 +31378,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -30957,6 +31449,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -30973,6 +31466,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -31043,6 +31537,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -31059,6 +31554,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -31129,6 +31625,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -31145,6 +31642,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -31215,6 +31713,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -31231,6 +31730,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -31256,6 +31756,94 @@ MonoBehaviour:
     - Name: com.unity.test-framework
       DisplayName: Test Framework
       _Version: 1.1.2
+      Description: Test framework for running Edit mode and Play mode test in Unity.
+      Category: Unity Test Framework
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.test-framework@1.0.13
+        m_IsDirectDependency: 1
+        m_Version: 1.0.13
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_AssetPath: Packages/com.unity.test-framework
+        m_Name: com.unity.test-framework
+        m_DisplayName: Test Framework
+        m_Category: Unity Test Framework
+        m_Type: 
+        m_Description: Test framework for running Edit mode and Play mode test in
+          Unity.
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Compatible:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Recommended: 1.0.18
+        m_Dependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        m_Keywords:
+        - Test
+        - TestFramework
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636929353520000000
+      IsInstalled: 0
+    - Name: com.unity.test-framework
+      DisplayName: Test Framework
+      _Version: 1.1.3
       Description: Test framework for running Edit mode and Play mode test in Unity.
       Category: Unity Test Framework
       State: 1
@@ -31301,6 +31889,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -31317,6 +31906,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -37880,6 +38470,95 @@ MonoBehaviour:
         m_DatePublishedTicks: 636898921580000000
       IsInstalled: 0
     searchPackages:
+    - Name: com.havok.physics
+      DisplayName: Havok Physics
+      _Version: 0.1.1-preview
+      Description: 'Havok''s award winning physics engine, applied to the DOTS framework.
+        This augments the Unity.Physics package, allowing physics scenes authored
+        for DOTS to be simulated using the Havok Physics engine.
+
+
+        PLEASE NOTE: This is a trial version, which expires on January 15th 2020.
+
+
+        After the trial period, the native plugins will no longer function in the
+        editor. If you want to continue using Havok Physics after the trial period,
+        you will have to upgrade to a newer version of this package when it becomes
+        available.
+
+
+        Havok Physics will continue to be free to use for Unity Personal and Unity
+        Plus users after the trial period has ended. Unity Pro users will have to
+        purchase a Havok subscription from the Unity Asset Store. For more details
+        on licensing, please see the package documentation.'
+      Category: Havok
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Microsoft
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.havok.physics@0.1.1-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.1-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.havok.physics
+        m_Name: com.havok.physics
+        m_DisplayName: Havok Physics
+        m_Category: Havok
+        m_Type: 
+        m_Description: 'Havok''s award winning physics engine, applied to the DOTS
+          framework. This augments the Unity.Physics package, allowing physics scenes
+          authored for DOTS to be simulated using the Havok Physics engine.
+
+
+          PLEASE NOTE: This is a trial version, which expires on January 15th 2020.
+
+
+          After the trial period, the native plugins will no longer function in the
+          editor. If you want to continue using Havok Physics after the trial period,
+          you will have to upgrade to a newer version of this package when it becomes
+          available.
+
+
+          Havok Physics will continue to be free to use for Unity Personal and Unity
+          Plus users after the trial period has ended. Unity Pro users will have to
+          purchase a Havok subscription from the Unity Asset Store. For more details
+          on licensing, please see the package documentation.'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.1-preview
+          m_Compatible:
+          - 0.1.1-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.physics
+          m_Version: 0.2.4-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - havok
+        - physics
+        m_Author:
+          m_Name: Microsoft
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046064140000000
+      IsInstalled: 0
     - Name: com.ptc.vuforia.engine
       DisplayName: Vuforia Engine AR
       _Version: 8.1.12
@@ -52333,11 +53012,13 @@ MonoBehaviour:
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Compatible:
           - 1.1.1
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.mathematics
@@ -52438,11 +53119,13 @@ MonoBehaviour:
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Compatible:
           - 1.1.1
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.mathematics
@@ -52543,11 +53226,13 @@ MonoBehaviour:
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Compatible:
           - 1.1.1
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.mathematics
@@ -52569,6 +53254,113 @@ MonoBehaviour:
     - Name: com.unity.burst
       DisplayName: Burst
       _Version: 1.2.0-preview.1
+      Description: Burst is a compiler, it translates from IL/.NET bytecode to highly
+        optimized native code using LLVM.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.burst@1.1.2
+        m_IsDirectDependency: 0
+        m_Version: 1.1.2
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.burst
+        m_Name: com.unity.burst
+        m_DisplayName: Burst
+        m_Category: 
+        m_Type: 
+        m_Description: Burst is a compiler, it translates from IL/.NET bytecode to
+          highly optimized native code using LLVM.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.2.4-preview.5
+          - 0.2.4-preview.7
+          - 0.2.4-preview.11
+          - 0.2.4-preview.12
+          - 0.2.4-preview.13
+          - 0.2.4-preview.14
+          - 0.2.4-preview.15
+          - 0.2.4-preview.16
+          - 0.2.4-preview.17
+          - 0.2.4-preview.18
+          - 0.2.4-preview.19
+          - 0.2.4-preview.20
+          - 0.2.4-preview.21
+          - 0.2.4-preview.22
+          - 0.2.4-preview.23
+          - 0.2.4-preview.24
+          - 0.2.4-preview.25
+          - 0.2.4-preview.30
+          - 0.2.4-preview.31
+          - 0.2.4-preview.33
+          - 0.2.4-preview.34
+          - 0.2.4-preview.37
+          - 0.2.4-preview.41
+          - 0.2.4-preview.45
+          - 0.2.4-preview.48
+          - 0.2.4-preview.50
+          - 1.0.0-preview.1
+          - 1.0.0-preview.2
+          - 1.0.0-preview.3
+          - 1.0.0-preview.4
+          - 1.0.0-preview.5
+          - 1.0.0-preview.6
+          - 1.0.0-preview.7
+          - 1.0.0-preview.8
+          - 1.0.0-preview.9
+          - 1.0.0-preview.10
+          - 1.0.0-preview.12
+          - 1.0.0-preview.13
+          - 1.0.0
+          - 1.0.2
+          - 1.0.4
+          - 1.1.0-preview.2
+          - 1.1.0-preview.3
+          - 1.1.0-preview.4
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3-preview.3
+          - 1.2.0-preview.1
+          - 1.2.0-preview.5
+          m_Compatible:
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3-preview.3
+          - 1.2.0-preview.1
+          - 1.2.0-preview.5
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.mathematics
+          m_Version: 1.1.0
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637002180640000000
+      IsInstalled: 0
+    - Name: com.unity.burst
+      DisplayName: Burst
+      _Version: 1.2.0-preview.5
       Description: Burst is a compiler, it translates from IL/.NET bytecode to highly
         optimized native code using LLVM.
       Category: 
@@ -52648,11 +53440,13 @@ MonoBehaviour:
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Compatible:
           - 1.1.1
           - 1.1.2
           - 1.1.3-preview.3
           - 1.2.0-preview.1
+          - 1.2.0-preview.5
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.mathematics
@@ -52722,10 +53516,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -52815,10 +53611,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -52860,6 +53658,101 @@ MonoBehaviour:
     - Name: com.unity.cinemachine
       DisplayName: Cinemachine
       _Version: 2.3.5-preview.3
+      Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete the
+        Cinemachine asset from your project BEFORE installing this version from the
+        Package Manager."
+      Category: cinematography
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.cinemachine@2.3.4
+        m_IsDirectDependency: 0
+        m_Version: 2.3.4
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.cinemachine@2.3.4
+        m_AssetPath: Packages/com.unity.cinemachine
+        m_Name: com.unity.cinemachine
+        m_DisplayName: Cinemachine
+        m_Category: cinematography
+        m_Type: 
+        m_Description: "Smart camera tools for passionate creators. \n\nIMPORTANT
+          NOTE: If you are upgrading from the Asset Store version of Cinemachine,
+          delete the Cinemachine asset from your project BEFORE installing this version
+          from the Package Manager."
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 2.1.11-beta.1
+          - 2.1.12
+          - 2.1.13
+          - 2.2.0
+          - 2.2.7
+          - 2.2.8
+          - 2.2.9
+          - 2.2.10-preview.3
+          - 2.2.10-preview.4
+          - 2.3.1
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Compatible:
+          - 2.3.3
+          - 2.3.4
+          - 2.3.5-preview.3
+          - 2.4.0-preview.3
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - camera
+        - follow
+        - rig
+        - fps
+        - cinematography
+        - aim
+        - orbit
+        - cutscene
+        - cinematic
+        - collision
+        - freelook
+        - cinemachine
+        - compose
+        - composition
+        - dolly
+        - track
+        - clearshot
+        - noise
+        - framing
+        - handheld
+        - lens
+        - impulse
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636942204440000000
+      IsInstalled: 0
+    - Name: com.unity.cinemachine
+      DisplayName: Cinemachine
+      _Version: 2.4.0-preview.3
       Description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
         If you are upgrading from the Asset Store version of Cinemachine, delete the
         Cinemachine asset from your project BEFORE installing this version from the
@@ -52908,10 +53801,12 @@ MonoBehaviour:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Compatible:
           - 2.3.3
           - 2.3.4
           - 2.3.5-preview.3
+          - 2.4.0-preview.3
           m_Recommended: 
         m_Dependencies: []
         m_ResolvedDependencies: []
@@ -61046,9 +61941,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.formats.fbx@2.0.2-preview.1
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
         m_IsDirectDependency: 0
-        m_Version: 2.0.2-preview.1
+        m_Version: 2.0.3-preview.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.formats.fbx
@@ -61078,12 +61973,14 @@ MonoBehaviour:
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Compatible:
           - 2.0.1-preview.2
           - 2.0.1-preview.4
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.timeline
@@ -61107,7 +62004,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636971796920000000
+        m_DatePublishedTicks: 637049593330000000
       IsInstalled: 0
     - Name: com.unity.formats.fbx
       DisplayName: FBX Exporter
@@ -61137,9 +62034,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.formats.fbx@2.0.2-preview.1
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
         m_IsDirectDependency: 0
-        m_Version: 2.0.2-preview.1
+        m_Version: 2.0.3-preview.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.formats.fbx
@@ -61169,12 +62066,14 @@ MonoBehaviour:
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Compatible:
           - 2.0.1-preview.2
           - 2.0.1-preview.4
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.timeline
@@ -61198,7 +62097,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636971796920000000
+        m_DatePublishedTicks: 637049593330000000
       IsInstalled: 0
     - Name: com.unity.formats.fbx
       DisplayName: FBX Exporter
@@ -61228,9 +62127,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.formats.fbx@2.0.2-preview.1
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
         m_IsDirectDependency: 0
-        m_Version: 2.0.2-preview.1
+        m_Version: 2.0.3-preview.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.formats.fbx
@@ -61260,12 +62159,14 @@ MonoBehaviour:
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Compatible:
           - 2.0.1-preview.2
           - 2.0.1-preview.4
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.timeline
@@ -61289,7 +62190,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636971796920000000
+        m_DatePublishedTicks: 637049593330000000
       IsInstalled: 0
     - Name: com.unity.formats.fbx
       DisplayName: FBX Exporter
@@ -61319,9 +62220,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.formats.fbx@2.0.2-preview.1
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
         m_IsDirectDependency: 0
-        m_Version: 2.0.2-preview.1
+        m_Version: 2.0.3-preview.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.formats.fbx
@@ -61351,12 +62252,14 @@ MonoBehaviour:
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Compatible:
           - 2.0.1-preview.2
           - 2.0.1-preview.4
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.timeline
@@ -61380,11 +62283,104 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636971796920000000
+        m_DatePublishedTicks: 637049593330000000
       IsInstalled: 0
     - Name: com.unity.formats.fbx
       DisplayName: FBX Exporter
       _Version: 2.0.2-preview.1
+      Description: 'The Unity FBX Exporter package makes it easy to send geometry
+        and animation from Unity 2018.3 or later to any application that supports
+        FBX and back again with minimal effort.
+
+
+        In particular, this round-trip workflow enables you to export Unity scenes
+        to FBX, import into Maya, Maya LT, or 3ds Max using an artist-friendly interface,
+        export Unity-ready FBX geometry and animation, and safely merge your changes
+        back into those Assets to continue your work.
+
+
+        For more information, see the FBX Exporter package documentation.'
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
+        m_IsDirectDependency: 0
+        m_Version: 2.0.3-preview.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.formats.fbx
+        m_Name: com.unity.formats.fbx
+        m_DisplayName: FBX Exporter
+        m_Category: 
+        m_Type: 
+        m_Description: 'The Unity FBX Exporter package makes it easy to send geometry
+          and animation from Unity 2018.3 or later to any application that supports
+          FBX and back again with minimal effort.
+
+
+          In particular, this round-trip workflow enables you to export Unity scenes
+          to FBX, import into Maya, Maya LT, or 3ds Max using an artist-friendly interface,
+          export Unity-ready FBX geometry and animation, and safely merge your changes
+          back into those Assets to continue your work.
+
+
+          For more information, see the FBX Exporter package documentation.'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 2.0.1-preview.2
+          - 2.0.1-preview.3
+          - 2.0.1-preview.4
+          - 2.0.1-preview.5
+          - 2.0.1-preview.11
+          - 2.0.2-preview.1
+          - 2.0.3-preview.3
+          m_Compatible:
+          - 2.0.1-preview.2
+          - 2.0.1-preview.4
+          - 2.0.1-preview.5
+          - 2.0.1-preview.11
+          - 2.0.2-preview.1
+          - 2.0.3-preview.3
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.timeline
+          m_Version: 1.0.0
+        - m_Name: com.autodesk.fbx
+          m_Version: 2.0.1-preview.1
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - fbx
+        - animation
+        - modeling
+        - maya
+        - max
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637049593330000000
+      IsInstalled: 0
+    - Name: com.unity.formats.fbx
+      DisplayName: FBX Exporter
+      _Version: 2.0.3-preview.3
       Description: 'The Unity FBX Exporter package makes it easy to send geometry
         and animation from Unity 2018.3 or later to any application that supports
         FBX and back again with minimal effort.
@@ -61410,9 +62406,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.formats.fbx@2.0.2-preview.1
+        m_PackageId: com.unity.formats.fbx@2.0.3-preview.3
         m_IsDirectDependency: 0
-        m_Version: 2.0.2-preview.1
+        m_Version: 2.0.3-preview.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.formats.fbx
@@ -61442,12 +62438,14 @@ MonoBehaviour:
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Compatible:
           - 2.0.1-preview.2
           - 2.0.1-preview.4
           - 2.0.1-preview.5
           - 2.0.1-preview.11
           - 2.0.2-preview.1
+          - 2.0.3-preview.3
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.timeline
@@ -61471,7 +62469,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 636971796920000000
+        m_DatePublishedTicks: 637049593330000000
       IsInstalled: 0
     - Name: com.unity.formats.usd
       DisplayName: USD
@@ -61653,6 +62651,142 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636997753080000000
       IsInstalled: 0
+    - Name: com.unity.game.foundation
+      DisplayName: Game Foundation
+      _Version: 0.1.0-preview.5
+      Description: "Game Foundation core package.\n\nThis package contains the following
+        components: \n Inventory System \n Virtual Currency Wallet \n Stats System\n
+        Core Systems \n\nNote: Preview release, public API subject to change."
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.game.foundation@0.1.0-preview.6
+        m_IsDirectDependency: 0
+        m_Version: 0.1.0-preview.6
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.game.foundation
+        m_Name: com.unity.game.foundation
+        m_DisplayName: Game Foundation
+        m_Category: 
+        m_Type: 
+        m_Description: "Game Foundation core package.\n\nThis package contains the
+          following components: \n Inventory System \n Virtual Currency Wallet \n
+          Stats System\n Core Systems \n\nNote: Preview release, public API subject
+          to change."
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.0-preview.5
+          - 0.1.0-preview.6
+          m_Compatible:
+          - 0.1.0-preview.5
+          - 0.1.0-preview.6
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.analytics
+          m_Version: 3.3.2
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - unity
+        - Game Foundation
+        - Inventory
+        - Wallet
+        - Virtual Currency
+        - Virtual Goods
+        - Item Stats
+        - Progression
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046065290000000
+      IsInstalled: 0
+    - Name: com.unity.game.foundation
+      DisplayName: Game Foundation
+      _Version: 0.1.0-preview.6
+      Description: "Game Foundation core package.\n\nThis package contains the following
+        components: \n Inventory System \n Virtual Currency Wallet \n Stats System\n
+        Core Systems \n\nNote: Preview release, public API subject to change."
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.game.foundation@0.1.0-preview.6
+        m_IsDirectDependency: 0
+        m_Version: 0.1.0-preview.6
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.game.foundation
+        m_Name: com.unity.game.foundation
+        m_DisplayName: Game Foundation
+        m_Category: 
+        m_Type: 
+        m_Description: "Game Foundation core package.\n\nThis package contains the
+          following components: \n Inventory System \n Virtual Currency Wallet \n
+          Stats System\n Core Systems \n\nNote: Preview release, public API subject
+          to change."
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.0-preview.5
+          - 0.1.0-preview.6
+          m_Compatible:
+          - 0.1.0-preview.5
+          - 0.1.0-preview.6
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.analytics
+          m_Version: 3.3.2
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - unity
+        - Game Foundation
+        - Inventory
+        - Wallet
+        - Virtual Currency
+        - Virtual Goods
+        - Item Stats
+        - Progression
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046065290000000
+      IsInstalled: 0
     - Name: com.unity.google.resonance.audio
       DisplayName: Google Resonance Audio
       _Version: 1.18.2
@@ -61800,11 +62934,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
+        m_PackageId: com.unity.ide.rider@1.1.1
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -61821,16 +62955,18 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
+        - m_Name: com.unity.test-framework
+          m_Version: 1.1.1
         m_ResolvedDependencies: []
         m_Keywords: []
         m_Author:
@@ -61843,7 +62979,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
+        m_DatePublishedTicks: 637048513610000000
       IsInstalled: 0
     - Name: com.unity.ide.rider
       DisplayName: Rider Editor
@@ -61864,11 +63000,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
+        m_PackageId: com.unity.ide.rider@1.1.1
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -61885,16 +63021,18 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
+        - m_Name: com.unity.test-framework
+          m_Version: 1.1.1
         m_ResolvedDependencies: []
         m_Keywords: []
         m_Author:
@@ -61907,7 +63045,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
+        m_DatePublishedTicks: 637048513610000000
       IsInstalled: 0
     - Name: com.unity.ide.rider
       DisplayName: Rider Editor
@@ -61928,11 +63066,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
+        m_PackageId: com.unity.ide.rider@1.1.1
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -61949,16 +63087,18 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
+        - m_Name: com.unity.test-framework
+          m_Version: 1.1.1
         m_ResolvedDependencies: []
         m_Keywords: []
         m_Author:
@@ -61971,11 +63111,77 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
+        m_DatePublishedTicks: 637048513610000000
       IsInstalled: 0
     - Name: com.unity.ide.rider
       DisplayName: Rider Editor
       _Version: 1.1.0
+      Description: Code editor integration for supporting Rider as code editor for
+        unity. Adds support for generating csproj files for code completion, auto
+        discovery of installations, etc.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.ide.rider@1.1.1
+        m_IsDirectDependency: 0
+        m_Version: 1.1.1
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.ide.rider
+        m_Name: com.unity.ide.rider
+        m_DisplayName: Rider Editor
+        m_Category: 
+        m_Type: 
+        m_Description: Code editor integration for supporting Rider as code editor
+          for unity. Adds support for generating csproj files for code completion,
+          auto discovery of installations, etc.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2-preview
+          m_Compatible:
+          - 1.0.2
+          - 1.0.6
+          - 1.0.8
+          - 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
+        m_Dependencies:
+        - m_Name: com.unity.test-framework
+          m_Version: 1.1.1
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637048513610000000
+      IsInstalled: 0
+    - Name: com.unity.ide.rider
+      DisplayName: Rider Editor
+      _Version: 1.1.1
       Description: Code editor integration for supporting Rider as code editor for
         unity. Adds support for generating csproj files for code completion, auto
         discovery of installations, etc.
@@ -61992,11 +63198,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.ide.rider@1.1.0
+        m_PackageId: com.unity.ide.rider@1.1.1
         m_IsDirectDependency: 0
-        m_Version: 1.1.0
+        m_Version: 1.1.1
         m_Source: 1
-        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -62013,16 +63219,18 @@ MonoBehaviour:
           - 1.0.6
           - 1.0.8
           - 1.1.0
+          - 1.1.1
           - 1.1.2-preview
           m_Compatible:
           - 1.0.2
           - 1.0.6
           - 1.0.8
           - 1.1.0
-          m_Recommended: 1.1.0
+          - 1.1.1
+          m_Recommended: 1.1.1
         m_Dependencies:
-        - m_Name: com.unity.ext.nunit
-          m_Version: 1.0.0
+        - m_Name: com.unity.test-framework
+          m_Version: 1.1.1
         m_ResolvedDependencies: []
         m_Keywords: []
         m_Author:
@@ -62035,7 +63243,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637001065180000000
+        m_DatePublishedTicks: 637048513610000000
       IsInstalled: 0
     - Name: com.unity.ide.vscode
       DisplayName: Visual Studio Code Editor
@@ -74872,6 +76080,334 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 637045957880000000
       IsInstalled: 0
+    - Name: com.unity.platforms
+      DisplayName: DOTS Platforms
+      _Version: 0.1.3-preview
+      Description: This package provides base support for build targets in DOTS.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms
+        m_Name: com.unity.platforms
+        m_DisplayName: DOTS Platforms
+        m_Category: 
+        m_Type: 
+        m_Description: This package provides base support for build targets in DOTS.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - platforms
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046137690000000
+      IsInstalled: 0
+    - Name: com.unity.platforms.android
+      DisplayName: DOTS Android Platform
+      _Version: 0.1.3-preview
+      Description: Provides support for building DOTS based projects to Android.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms.android@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms.android
+        m_Name: com.unity.platforms.android
+        m_DisplayName: DOTS Android Platform
+        m_Category: 
+        m_Type: 
+        m_Description: Provides support for building DOTS based projects to Android.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.platforms
+          m_Version: 0.1.3-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - android
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046173650000000
+      IsInstalled: 0
+    - Name: com.unity.platforms.linux
+      DisplayName: DOTS Linux Platform
+      _Version: 0.1.3-preview
+      Description: Provides support for building DOTS based projects to Linux.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms.linux@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms.linux
+        m_Name: com.unity.platforms.linux
+        m_DisplayName: DOTS Linux Platform
+        m_Category: 
+        m_Type: 
+        m_Description: Provides support for building DOTS based projects to Linux.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.platforms
+          m_Version: 0.1.3-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - linux
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046173700000000
+      IsInstalled: 0
+    - Name: com.unity.platforms.macos
+      DisplayName: DOTS macOS Platform
+      _Version: 0.1.3-preview
+      Description: Provides support for building DOTS based projects to macOS.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms.macos@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms.macos
+        m_Name: com.unity.platforms.macos
+        m_DisplayName: DOTS macOS Platform
+        m_Category: 
+        m_Type: 
+        m_Description: Provides support for building DOTS based projects to macOS.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.platforms
+          m_Version: 0.1.3-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - macos
+        - mac
+        - osx
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046173750000000
+      IsInstalled: 0
+    - Name: com.unity.platforms.web
+      DisplayName: DOTS Web Platform
+      _Version: 0.1.3-preview
+      Description: Provides support for building DOTS based projects to the Web.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms.web@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms.web
+        m_Name: com.unity.platforms.web
+        m_DisplayName: DOTS Web Platform
+        m_Category: 
+        m_Type: 
+        m_Description: Provides support for building DOTS based projects to the Web.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.platforms
+          m_Version: 0.1.3-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - web
+        - webgl
+        - asmjs
+        - wasm
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046173800000000
+      IsInstalled: 0
+    - Name: com.unity.platforms.windows
+      DisplayName: DOTS Windows Platform
+      _Version: 0.1.3-preview
+      Description: Provides support for building DOTS based projects to Windows.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.platforms.windows@0.1.3-preview
+        m_IsDirectDependency: 0
+        m_Version: 0.1.3-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.platforms.windows
+        m_Name: com.unity.platforms.windows
+        m_DisplayName: DOTS Windows Platform
+        m_Category: 
+        m_Type: 
+        m_Description: Provides support for building DOTS based projects to Windows.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.3-preview
+          m_Compatible:
+          - 0.1.3-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.platforms
+          m_Version: 0.1.3-preview
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - windows
+        - win32
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637046173860000000
+      IsInstalled: 0
     - Name: com.unity.playablegraph-visualizer
       DisplayName: PlayableGraph Visualizer
       _Version: 0.1.0-preview.1
@@ -87053,6 +88589,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -87164,6 +88701,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -87279,6 +88817,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -87407,6 +88946,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -87536,6 +89076,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -87658,6 +89199,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -88678,6 +90220,71 @@ MonoBehaviour:
           m_IsDefault: 1
         m_HideInEditor: 1
         m_DatePublishedTicks: 637007042390000000
+      IsInstalled: 0
+    - Name: com.unity.renderstreaming
+      DisplayName: Unity Render Streaming
+      _Version: 1.1.1-preview
+      Description: 'This is HDRP sample scene project integrated with Unity Render
+        Streaming technology.
+
+
+        Along with its signaling web server, you could play around the scene in any
+        webrtc supported web browser.'
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.renderstreaming@1.1.1-preview
+        m_IsDirectDependency: 0
+        m_Version: 1.1.1-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.renderstreaming
+        m_Name: com.unity.renderstreaming
+        m_DisplayName: Unity Render Streaming
+        m_Category: 
+        m_Type: 
+        m_Description: 'This is HDRP sample scene project integrated with Unity Render
+          Streaming technology.
+
+
+          Along with its signaling web server, you could play around the scene in
+          any webrtc supported web browser.'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.1.1-preview
+          m_Compatible:
+          - 1.1.1-preview
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.webrtc
+          m_Version: 1.0.1-preview
+        - m_Name: com.unity.inputsystem
+          m_Version: 0.9.6-preview
+        m_ResolvedDependencies: []
+        m_Keywords: []
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637045058210000000
       IsInstalled: 0
     - Name: com.unity.scriptablebuildpipeline
       DisplayName: Scriptable Build Pipeline
@@ -90520,6 +92127,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -90636,6 +92244,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0
           - 6.9.1
@@ -91199,9 +92808,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91230,6 +92839,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91246,6 +92856,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91268,7 +92879,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91287,9 +92898,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91318,6 +92929,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91334,6 +92946,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91356,7 +92969,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91375,9 +92988,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91406,6 +93019,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91422,6 +93036,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91444,7 +93059,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91463,9 +93078,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91494,6 +93109,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91510,6 +93126,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91532,7 +93149,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91551,9 +93168,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91582,6 +93199,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91598,6 +93216,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91620,7 +93239,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91639,9 +93258,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91670,6 +93289,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91686,6 +93306,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91708,7 +93329,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91727,9 +93348,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91758,6 +93379,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91774,6 +93396,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91796,7 +93419,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91815,9 +93438,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91846,6 +93469,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91862,6 +93486,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91884,7 +93509,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91903,9 +93528,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -91934,6 +93559,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -91950,6 +93576,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -91972,7 +93599,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -91991,9 +93618,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92022,6 +93649,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92038,6 +93666,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92060,7 +93689,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -92079,9 +93708,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92110,6 +93739,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92126,6 +93756,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92148,7 +93779,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -92167,9 +93798,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92198,6 +93829,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92214,6 +93846,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92236,7 +93869,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -92255,9 +93888,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92286,6 +93919,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92302,6 +93936,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92324,7 +93959,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
@@ -92343,9 +93978,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92374,6 +94009,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92390,6 +94026,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92412,11 +94049,101 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.test-framework
       DisplayName: Test Framework
       _Version: 1.1.2
+      Description: Test framework for running Edit mode and Play mode test in Unity.
+      Category: Unity Test Framework
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.test-framework@1.1.3
+        m_IsDirectDependency: 0
+        m_Version: 1.1.3
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.test-framework
+        m_Name: com.unity.test-framework
+        m_DisplayName: Test Framework
+        m_Category: Unity Test Framework
+        m_Type: 
+        m_Description: Test framework for running Edit mode and Play mode test in
+          Unity.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Compatible:
+          - 0.0.4-preview
+          - 0.0.29-preview
+          - 1.0.0
+          - 1.0.7
+          - 1.0.9
+          - 1.0.11
+          - 1.0.12
+          - 1.0.13
+          - 1.0.14
+          - 1.0.16
+          - 1.0.17
+          - 1.0.18
+          - 1.1.0
+          - 1.1.1
+          - 1.1.2
+          - 1.1.3
+          m_Recommended: 1.0.18
+        m_Dependencies:
+        - m_Name: com.unity.ext.nunit
+          m_Version: 1.0.0
+        - m_Name: com.unity.modules.imgui
+          m_Version: 1.0.0
+        - m_Name: com.unity.modules.jsonserialize
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - Test
+        - TestFramework
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637048515210000000
+      IsInstalled: 0
+    - Name: com.unity.test-framework
+      DisplayName: Test Framework
+      _Version: 1.1.3
       Description: Test framework for running Edit mode and Play mode test in Unity.
       Category: Unity Test Framework
       State: 0
@@ -92431,9 +94158,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.test-framework@1.1.2
+        m_PackageId: com.unity.test-framework@1.1.3
         m_IsDirectDependency: 0
-        m_Version: 1.1.2
+        m_Version: 1.1.3
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.test-framework
@@ -92462,6 +94189,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Compatible:
           - 0.0.4-preview
           - 0.0.29-preview
@@ -92478,6 +94206,7 @@ MonoBehaviour:
           - 1.1.0
           - 1.1.1
           - 1.1.2
+          - 1.1.3
           m_Recommended: 1.0.18
         m_Dependencies:
         - m_Name: com.unity.ext.nunit
@@ -92500,7 +94229,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637042466610000000
+        m_DatePublishedTicks: 637048515210000000
       IsInstalled: 0
     - Name: com.unity.textmeshpro
       DisplayName: TextMesh Pro
@@ -97323,9 +99052,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.5
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.5
+        m_Version: 2.0.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -97355,11 +99084,13 @@ MonoBehaviour:
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -97380,7 +99111,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637002722780000000
+        m_DatePublishedTicks: 637048659280000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -97400,9 +99131,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.5
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.5
+        m_Version: 2.0.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -97432,11 +99163,13 @@ MonoBehaviour:
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -97457,7 +99190,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637002722780000000
+        m_DatePublishedTicks: 637048659280000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
@@ -97477,9 +99210,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.5
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.5
+        m_Version: 2.0.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -97509,11 +99242,13 @@ MonoBehaviour:
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -97534,11 +99269,90 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637002722780000000
+        m_DatePublishedTicks: 637048659280000000
       IsInstalled: 0
     - Name: com.unity.vectorgraphics
       DisplayName: Vector Graphics
       _Version: 2.0.0-preview.5
+      Description: The vector graphics package provides an SVG importer and runtime
+        vector graphics APIs.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.6
+        m_IsDirectDependency: 0
+        m_Version: 2.0.0-preview.6
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.vectorgraphics
+        m_Name: com.unity.vectorgraphics
+        m_DisplayName: Vector Graphics
+        m_Category: 
+        m_Type: 
+        m_Description: The vector graphics package provides an SVG importer and runtime
+          vector graphics APIs.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.0-preview.13
+          - 1.0.0-preview.15
+          - 1.0.0-preview.19
+          - 1.0.0-preview.20
+          - 1.0.0-preview.21
+          - 1.0.0-preview.22
+          - 1.0.0-preview.23
+          - 1.0.0-preview.24
+          - 1.0.0-preview.26
+          - 1.0.0-preview.27
+          - 1.0.0-preview.28
+          - 1.0.0-preview.29
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          m_Compatible:
+          - 2.0.0-preview.2
+          - 2.0.0-preview.3
+          - 2.0.0-preview.4
+          - 2.0.0-preview.5
+          - 2.0.0-preview.6
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.2d.sprite
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - vector
+        - graphics
+        - svg
+        - importer
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637048659280000000
+      IsInstalled: 0
+    - Name: com.unity.vectorgraphics
+      DisplayName: Vector Graphics
+      _Version: 2.0.0-preview.6
       Description: The vector graphics package provides an SVG importer and runtime
         vector graphics APIs.
       Category: 
@@ -97554,9 +99368,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.5
+        m_PackageId: com.unity.vectorgraphics@2.0.0-preview.6
         m_IsDirectDependency: 0
-        m_Version: 2.0.0-preview.5
+        m_Version: 2.0.0-preview.6
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.vectorgraphics
@@ -97586,11 +99400,13 @@ MonoBehaviour:
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Compatible:
           - 2.0.0-preview.2
           - 2.0.0-preview.3
           - 2.0.0-preview.4
           - 2.0.0-preview.5
+          - 2.0.0-preview.6
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.2d.sprite
@@ -97611,7 +99427,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637002722780000000
+        m_DatePublishedTicks: 637048659280000000
       IsInstalled: 0
     - Name: com.unity.visualeffectgraph
       DisplayName: Visual Effect Graph
@@ -97672,6 +99488,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -97755,6 +99572,7 @@ MonoBehaviour:
           - 7.0.0
           - 7.0.1
           - 7.1.1
+          - 7.1.2
           m_Compatible:
           - 6.9.0-preview
           - 6.9.1-preview
@@ -97778,6 +99596,61 @@ MonoBehaviour:
           m_IsDefault: 1
         m_HideInEditor: 1
         m_DatePublishedTicks: 637000418710000000
+      IsInstalled: 0
+    - Name: com.unity.webrtc
+      DisplayName: WebRTC
+      _Version: 1.0.1-preview
+      Description: The WebRTC package provides browsers and mobile applications with
+        Real-Time Communications (RTC) capabilities.
+      Category: 
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.webrtc@1.0.1-preview
+        m_IsDirectDependency: 0
+        m_Version: 1.0.1-preview
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.webrtc
+        m_Name: com.unity.webrtc
+        m_DisplayName: WebRTC
+        m_Category: 
+        m_Type: 
+        m_Description: The WebRTC package provides browsers and mobile applications
+          with Real-Time Communications (RTC) capabilities.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 1.0.1-preview
+          m_Compatible:
+          - 1.0.1-preview
+          m_Recommended: 
+        m_Dependencies: []
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - webrtc
+        - web
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637045058810000000
       IsInstalled: 0
     - Name: com.unity.xiaomi
       DisplayName: Xiaomi SDK
@@ -111251,8 +113124,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 63
-    listPackagesOfflineVersion: 62
+    listPackagesVersion: 106
+    listPackagesOfflineVersion: 105
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -111667,6 +113540,54 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.platforms.android@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.platforms.linux@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.platforms.macos@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.platforms@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.platforms.web@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.platforms.windows@0.1.3-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.game.foundation@0.1.0-preview.6
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.havok.physics@0.1.1-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.renderstreaming@1.1.1-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.vectorgraphics@2.0.0-preview.6
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.webrtc@1.0.1-preview
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.formats.fbx@2.0.3-preview.3
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
     BuiltInSelection:
       States: []
 --- !u!114 &14
@@ -111717,9 +113638,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 646
-    width: 1531
-    height: 355
+    y: 621
+    width: 1553
+    height: 380
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -111745,9 +113666,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 9c310000
-    m_LastClickedID: 12700
-    m_ExpandedIDs: 000000006430000000ca9a3b
+    m_SelectedIDs: 9e310000
+    m_LastClickedID: 12702
+    m_ExpandedIDs: 0000000064300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -111802,7 +113723,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000016570000162f0000122f00007c0b0000000000004a35000022310000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -111852,9 +113773,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1531
+    x: 1553
     y: 73
-    width: 387
+    width: 365
     height: 928
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
@@ -111890,15 +113811,15 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 379
-    height: 554
+    width: 387
+    height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 52370000
-      m_LastClickedID: 14162
-      m_ExpandedIDs: 74fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 02f9ffff30f9ffff60faffff74fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -111943,10 +113864,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
+    x: 387
     y: 73
-    width: 1150
-    height: 554
+    width: 1164
+    height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 5c3cb6a4f3be4984e8b9a4de9721052a
@@ -112042,10 +113963,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 379
+    x: 387
     y: 73
-    width: 1150
-    height: 554
+    width: 1164
+    height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -112058,10 +113979,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -575
-    m_HBaseRangeMax: 575
-    m_VBaseRangeMin: -268.5
-    m_VBaseRangeMax: 268.5
+    m_HBaseRangeMin: -582
+    m_HBaseRangeMax: 582
+    m_VBaseRangeMin: -256
+    m_VBaseRangeMax: 256
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -112070,7 +113991,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -112079,25 +114000,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1150
-      height: 537
+      width: 1164
+      height: 512
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 575, y: 268.5}
+    m_Translation: {x: 582, y: 256}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -575
-      y: -268.5
-      width: 1150
-      height: 537
+      x: -582
+      y: -256
+      width: 1164
+      height: 512
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1150, y: 554}
+  m_LastWindowPixelSize: {x: 1164, y: 529}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -112124,7 +114045,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 646
-    width: 1531
-    height: 355
+    y: 621
+    width: 1553
+    height: 380
   m_ViewDataDictionary: {fileID: 0}
