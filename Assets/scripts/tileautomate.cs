@@ -45,6 +45,7 @@ public class tileautomate : MonoBehaviour
         public T Value {get; set;}
     }
 
+    //most signifigant private variables to functionality of program
     private List<Ref<Node>> openList;
     private List<Ref<Node>> closedList;
     private Node[,] terrainmap;
@@ -80,7 +81,7 @@ public class tileautomate : MonoBehaviour
     public Tile down_right;
     public Tile none;
     
-    //*** read more documentation of enum */
+    /*** read more documentation of enum 
     //[Flags]
     public enum State
     {
@@ -92,12 +93,15 @@ public class tileautomate : MonoBehaviour
         end_s = 0x20,
         wall = 0x40
     }
+    */
 
+    // dimensions of aspects of the project
     int width;
     int height;
     int numTiles;
     int numWallTiles;
 
+    // boolean flags for various game states
     bool gameStart = true;
     bool startSelected = false;
     bool endSelected = false;
@@ -141,6 +145,7 @@ public class tileautomate : MonoBehaviour
 
 
         // check for proper dimensions and size at the console 
+        // should be 14x14 with a 15x15 size (first index 0)
         if (terrainmap.Rank > 1) {
             for (int dimension = 1; dimension <= terrainmap.Rank; dimension++)
                 Debug.Log("Dimension:" + dimension + " size: " +
@@ -148,6 +153,7 @@ public class tileautomate : MonoBehaviour
         }
         
     }
+    // set tiles in tilemap to tiles stored in nodes
     public void updateMap()
     {
         for(int i = 0; i < width; i++)
@@ -163,8 +169,8 @@ public class tileautomate : MonoBehaviour
 
     public void getStartandEnd()
     {
-        Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3Int tilePos = tileGrid.WorldToCell(worldPos);
+        Vector3 worldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition); // get world position of mouse
+        Vector3Int tilePos = tileGrid.WorldToCell(worldPos); // get the relative grid position of world position
         //Debug.Log(tilePos);
         if(gameStart)
         {
@@ -177,6 +183,8 @@ public class tileautomate : MonoBehaviour
                         terrainmap[tilePos.x,tilePos.y].cur = start;
                         startPos = tilePos;
                         curPos = tilePos;
+                        terrainmap[tilePos.x,tilePos.y].parent.x = tilePos.x;
+                        terrainmap[tilePos.x,tilePos.y].parent.y = tilePos.y;
                         startSelected = true;
                     }
                 }
@@ -219,7 +227,7 @@ public class tileautomate : MonoBehaviour
                 continue;
             }
             
-            switch(k)
+            switch(k) //problem is here somewhere
             {
                 case 0:
                     break;
@@ -260,46 +268,48 @@ public class tileautomate : MonoBehaviour
             }
             
             //Debug.Log("<color=red>"+(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))+"</color>");
-            if((terrainmap[curPos.x,curPos.y].myPos.x == startPos.x && terrainmap[curPos.x,curPos.y].myPos.y == startPos.y ) || 
+            if(/*(terrainmap[curPos.x,curPos.y].myPos.x == startPos.x && terrainmap[curPos.x,curPos.y].myPos.y == startPos.y ) || */
                 (!openList.Exists(p => p.Value.Equals(terrainmap[i,j]))) ||
                 (terrainmap[curPos.x,curPos.y].g < terrainmap[terrainmap[i,j].parent.x, terrainmap[i,j].parent.y].g))
             {
                 Debug.Log("<color=green> conditions met to change parent to "+curPos+" at "+i+","+j+"</color>");
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
+                int p_x = curPos.x;
+                int p_y = curPos.y;
                 switch(k)
                 {
                     case 0:
                         terrainmap[i,j].pointer = right;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + s_move;
                         break;
                     case 1:
                         terrainmap[i,j].pointer = up_right;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + d_move;
                         break;
                     case 2:
                         terrainmap[i,j].pointer = up;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + s_move;
                         break;
                     case 3:
                         terrainmap[i,j].pointer = up_left;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + d_move;
                         break;
                     case 4:
                         terrainmap[i,j].pointer = left;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + s_move;
                         break;
                     case 5:
                         terrainmap[i,j].pointer = down_left;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + d_move;
                         break;
                     case 6:
                         terrainmap[i,j].pointer = down;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + s_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + s_move;
                         break;
                     case 7:
                         terrainmap[i,j].pointer = down_right;
-                        terrainmap[i,j].g = terrainmap[curPos.x,curPos.y].g + d_move;
+                        terrainmap[i,j].g = terrainmap[p_x,p_y].g + d_move;
                         break;
                 }
                 int e_dx = Math.Abs(endPos.x - i); 
@@ -382,14 +392,17 @@ public class tileautomate : MonoBehaviour
     }
     public void tracePath()
     {
-        if((curPos.x != startPos.x) && (curPos.y != startPos.y))
+        if(terrainmap[curPos.x,curPos.y].cur != start_s)
         {
-            if((curPos.x != endPos.x) && (curPos.y != endPos.y))
+            if(terrainmap[curPos.x,curPos.y].cur != end_s)
             {
                 terrainmap[curPos.x,curPos.y].cur = select_p;
             }
+            Debug.Log("<color=yellow> traversed point"+curPos+"</color>");
             curPos.x = terrainmap[curPos.x,curPos.y].parent.x;
             curPos.y = terrainmap[curPos.x,curPos.y].parent.y;
+            Debug.Log("<color=green> moving to point"+curPos+"</color>");
+            
         }
         else 
         {
