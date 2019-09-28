@@ -219,6 +219,7 @@ public class tileautomate : MonoBehaviour
             int i = moves[k,0];
             int j = moves[k,1];
             bool diag_wall = false;
+            
             if(i >= width || j >= height || i < 0 || j < 0){
                 continue;
             }
@@ -227,13 +228,14 @@ public class tileautomate : MonoBehaviour
                 continue;
             }
             
-            switch(k) //problem is here somewhere
+            switch(k) // **** problem is here somewhere
             {
                 case 0:
                     break;
                 case 1:
                     if(terrainmap[moves[k-1,0],moves[k-1,1]].cur == wall || terrainmap[moves[k+1,0],moves[k+1,1]].cur == wall)
                     {
+                        // down left move
                         diag_wall = true;
                     }
                     break;
@@ -242,6 +244,7 @@ public class tileautomate : MonoBehaviour
                 case 3:
                     if(terrainmap[moves[k-1,0],moves[k-1,1]].cur == wall || terrainmap[moves[k+1,0],moves[k+1,1]].cur == wall)
                     {
+                        // down right move
                         diag_wall = true;
                     }
                     break;
@@ -250,6 +253,7 @@ public class tileautomate : MonoBehaviour
                 case 5:
                     if(terrainmap[moves[k-1,0],moves[k-1,1]].cur == wall || terrainmap[moves[k+1,0],moves[k+1,1]].cur == wall)
                     {
+                        // up right move
                         diag_wall = true;
                     }
                     break;
@@ -258,13 +262,19 @@ public class tileautomate : MonoBehaviour
                 case 7:
                     if(terrainmap[moves[k-1,0],moves[k-1,1]].cur == wall || terrainmap[moves[0,0],moves[0,1]].cur == wall)
                     {
+                        // up left move
                         diag_wall = true;
                     }
                     break;
             }
             if(diag_wall)
             {
+                Debug.Log("<color=red> skipping diagonal-through-wall at"+i+","+j+"</color>");
                 continue;
+            }
+            if(diag_wall)
+            {
+                Debug.Log("<color=purple> checking to see if continue worked </color>");
             }
             
             //Debug.Log("<color=red>"+(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))+"</color>");
@@ -275,6 +285,7 @@ public class tileautomate : MonoBehaviour
                 Debug.Log("<color=green> conditions met to change parent to "+curPos+" at "+i+","+j+"</color>");
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
+                Debug.Break();
                 int p_x = curPos.x;
                 int p_y = curPos.y;
                 switch(k)
@@ -362,7 +373,7 @@ public class tileautomate : MonoBehaviour
             unpathable = true;
         }
        
-        if(terrainmap[curPos.x,curPos.y].cur != end_s) //may be problematic
+        if(terrainmap[curPos.x,curPos.y].cur != end_s) 
         {
             Ref<Node> lowest_f = openList[0];//new Node(500,500,none,none); this may be the problem
             
@@ -374,12 +385,12 @@ public class tileautomate : MonoBehaviour
                 int e_dy = Math.Abs(endPos.y - i.Value.myPos.y);
                 terrainmap[i.Value.myPos.x,i.Value.myPos.y].h = (e_dx + e_dy)*10;
                 terrainmap[i.Value.myPos.x,i.Value.myPos.y].f = terrainmap[i.Value.myPos.x,i.Value.myPos.y].g + terrainmap[i.Value.myPos.x,i.Value.myPos.y].h;
-                */
                 Debug.Log("<color=green>f here is "+ i.Value.f+"</color>"); //references are working if changes are noticable
                 Debug.Log("position is "+ i.Value.myPos.x + "," + i.Value.myPos.y);
                 Debug.Log("parent position is "+ i.Value.parent.x + "," + i.Value.parent.y);
+                */
                 
-                if(i.Value.f < lowest_f.Value.f)//this will greatly effect decision making
+                if(i.Value.f <= lowest_f.Value.f)//this will greatly effect decision making
                 {
                     lowest_f = i;
                 }
