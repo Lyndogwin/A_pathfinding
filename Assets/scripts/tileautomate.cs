@@ -14,9 +14,7 @@ public class tileautomate : MonoBehaviour
     }
      
     public struct Node : IEquatable<Node>
-    {
-        // *** implement enumerated state or use integer representations
-        
+    {   
         public Tile cur; // will reprsent state
         public Tile pointer; 
         public Pos parent;
@@ -24,6 +22,7 @@ public class tileautomate : MonoBehaviour
         public int f;
         public int g;
         public int h;
+        
         public Node(int w, int r, Tile t, Tile s)
         {
             cur = t;
@@ -127,6 +126,7 @@ public class tileautomate : MonoBehaviour
             }
         }
         
+        // randomly declare unpathable tiles
         for(int i = 0; i < numWallTiles; i++)
         {
             int []selector = new int[2];
@@ -228,7 +228,7 @@ public class tileautomate : MonoBehaviour
                 continue;
             }
             
-            switch(k) // **** problem is here somewhere
+            switch(k)
             {
                 case 0:
                     break;
@@ -276,18 +276,22 @@ public class tileautomate : MonoBehaviour
             {
                 Debug.Log("<color=purple> checking to see if continue worked </color>");
             }
+            int p_x = terrainmap[i,j].parent.x;
+            int p_y = terrainmap[i,j].parent.y;
             
             //Debug.Log("<color=red>"+(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))+"</color>");
+            
+            //conditions for a parent change
             if(/*(terrainmap[curPos.x,curPos.y].myPos.x == startPos.x && terrainmap[curPos.x,curPos.y].myPos.y == startPos.y ) || */
                 (!openList.Exists(p => p.Value.Equals(terrainmap[i,j]))) ||
-                (terrainmap[curPos.x,curPos.y].g < terrainmap[terrainmap[i,j].parent.x, terrainmap[i,j].parent.y].g))
+                (terrainmap[curPos.x,curPos.y].g < terrainmap[p_x, p_y].g) )
             {
-                Debug.Log("<color=green> conditions met to change parent to "+curPos+" at "+i+","+j+"</color>");
                 terrainmap[i,j].parent.x = curPos.x;
                 terrainmap[i,j].parent.y = curPos.y;
-                Debug.Break();
-                int p_x = curPos.x;
-                int p_y = curPos.y;
+                Debug.Log("<color=green> conditions met to change parent to "+terrainmap[i,j].parent.x+","+terrainmap[i,j].parent.y+" at "+i+","+j+"</color>");
+                //Debug.Break();
+                p_x = terrainmap[i,j].parent.x;
+                p_y = terrainmap[i,j].parent.y;
                 switch(k)
                 {
                     case 0:
@@ -332,15 +336,28 @@ public class tileautomate : MonoBehaviour
                 Debug.Log("h value is: " + terrainmap[i,j].h);
                 Debug.Log("g value is: " + terrainmap[i,j].g);
                 Debug.Log("f value is: " + terrainmap[i,j].f);
-                Debug.Log("h copy value is: " + openList[openList.Count - 1].h);
-                Debug.Log("g copy value is: " + openList[openList.Count - 1].g);
-                Debug.Log("f copy value is: " + openList[openList.Count - 1].f);
                 */
-                if(!openList.Exists(p => p.Value.Equals(terrainmap[i,j])))
+                //update open list
+                if( !openList.Exists(p => p.Value.Equals(terrainmap[i,j])) || (terrainmap[i,j].g != openList.Find(p => p.Value.Equals(terrainmap[i,j])).Value.g) )//new
                 {
+                    foreach (Ref<Node> p in openList) // new
+                    {   
+                        //if(i.Value.myPos.x == curPos.x && i.Value.myPos.y == curPos.y )
+                        if(p.Value.Equals(terrainmap[i,j]))
+                        {    
+                            openList.Remove(p);
+                            Debug.Log("<color=blue> made change to open list </color>");
+                        }
+                    }
+
                     Debug.Log("<color=yellow> Alert: </color>Adding a new node to openList");
                     openList.Add(new Ref<Node> {Value = terrainmap[i,j]}); // add if not in openList
                 }
+                /* 
+                Debug.Log("h copy value is: " + openList[openList.Count - 1].Value.h);
+                Debug.Log("g copy value is: " + openList[openList.Count - 1].Value.g);
+                Debug.Log("f copy value is: " + openList[openList.Count - 1].Value.f);
+                */
             }
         }
         if(curPos.x == startPos.x && curPos.y == startPos.y)
@@ -360,12 +377,12 @@ public class tileautomate : MonoBehaviour
         
         closedList.Add(new Ref<Node> {Value = terrainmap[curPos.x,curPos.y]});
         
-        foreach (Ref<Node> i in openList)
+        foreach (Ref<Node> p in openList)
         {   
             //if(i.Value.myPos.x == curPos.x && i.Value.myPos.y == curPos.y )
-            if(i.Value.Equals(terrainmap[curPos.x,curPos.y]))
+            if(p.Value.Equals(terrainmap[curPos.x,curPos.y]))
             {    
-                openList.Remove(i);
+                openList.Remove(p);
                 //Debug.Log("<color=green>Success! </color>removed current node from open list");
             }
         }
@@ -378,7 +395,7 @@ public class tileautomate : MonoBehaviour
             Ref<Node> lowest_f = openList[0];//new Node(500,500,none,none); this may be the problem
             
             // loop through the openList of structs "Node" and calculate the f value
-            foreach (Ref<Node> i in openList)
+            foreach (Ref<Node> p in openList)
             {
                 /* 
                 int e_dx = Math.Abs(endPos.x - i.Value.myPos.x); 
@@ -390,9 +407,9 @@ public class tileautomate : MonoBehaviour
                 Debug.Log("parent position is "+ i.Value.parent.x + "," + i.Value.parent.y);
                 */
                 
-                if(i.Value.f <= lowest_f.Value.f)//this will greatly effect decision making
+                if(p.Value.f <= lowest_f.Value.f)//this will greatly effect decision making
                 {
-                    lowest_f = i;
+                    lowest_f = p;
                 }
             }
             //Debug.Log("lowest f is " + lowest_f.Value.f);
@@ -410,8 +427,10 @@ public class tileautomate : MonoBehaviour
                 terrainmap[curPos.x,curPos.y].cur = select_p;
             }
             Debug.Log("<color=yellow> traversed point"+curPos+"</color>");
-            curPos.x = terrainmap[curPos.x,curPos.y].parent.x;
-            curPos.y = terrainmap[curPos.x,curPos.y].parent.y;
+            int next_x = terrainmap[curPos.x,curPos.y].parent.x;
+            int next_y = terrainmap[curPos.x,curPos.y].parent.y;
+            curPos.x = next_x;
+            curPos.y = next_y;
             Debug.Log("<color=green> moving to point"+curPos+"</color>");
             
         }
