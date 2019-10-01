@@ -55,6 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\scripts\Dialogue.cs" />
+     <Compile Include="Assets\scripts\DialogueManager.cs" />
+     <Compile Include="Assets\scripts\DialogueTrigger.cs" />
      <Compile Include="Assets\scripts\tileautomate.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Brandon/Documents/unity-projects/A_pathfinding/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

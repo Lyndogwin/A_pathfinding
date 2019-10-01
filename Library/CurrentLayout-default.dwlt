@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -44,8 +44,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 344}
-  m_MaxSize: {x: 12008, y: 8044}
+  m_MinSize: {x: 683, y: 494}
+  m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
   controlID: 115
 --- !u!114 &3
@@ -119,16 +119,16 @@ MonoBehaviour:
     y: 548
     width: 1556
     height: 399
-  m_MinSize: {x: 102, y: 122}
-  m_MaxSize: {x: 4002, y: 4022}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 232, y: 272}
+  m_MaxSize: {x: 10002, y: 10022}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 20}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,7 +151,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -217,8 +217,8 @@ MonoBehaviour:
     y: 0
     width: 1556
     height: 947
-  m_MinSize: {x: 406, y: 344}
-  m_MaxSize: {x: 8006, y: 8044}
+  m_MinSize: {x: 406, y: 494}
+  m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
   controlID: 57
 --- !u!114 &10
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
-    lastUpdateTime: Sep 28, 08:11
+    lastUpdateTime: Oct 1, 14:18
     listPackagesOffline:
     - Name: com.unity.2d.sprite
       DisplayName: 2D Sprite
@@ -12997,7 +12997,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13069,9 +13069,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13092,9 +13094,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13150,7 +13154,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13222,9 +13226,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13245,9 +13251,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13303,7 +13311,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13375,9 +13383,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13398,9 +13408,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13456,7 +13468,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13528,9 +13540,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13551,9 +13565,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13609,7 +13625,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13681,9 +13697,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13704,9 +13722,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13762,7 +13782,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13834,9 +13854,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -13857,9 +13879,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -13915,7 +13939,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -13987,9 +14011,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14010,9 +14036,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14068,7 +14096,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14140,9 +14168,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14163,9 +14193,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14221,7 +14253,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14293,9 +14325,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14316,9 +14350,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14374,7 +14410,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14446,9 +14482,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14469,9 +14507,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14527,7 +14567,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14599,9 +14639,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14622,9 +14664,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14680,7 +14724,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14752,9 +14796,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14775,9 +14821,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14833,7 +14881,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -14905,9 +14953,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -14928,9 +14978,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -14986,7 +15038,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15058,9 +15110,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15081,9 +15135,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15139,7 +15195,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15211,9 +15267,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15234,9 +15292,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15292,7 +15352,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15364,9 +15424,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15387,9 +15449,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15445,7 +15509,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15517,9 +15581,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15540,9 +15606,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15598,7 +15666,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15670,9 +15738,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15693,9 +15763,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15751,7 +15823,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15823,9 +15895,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15846,9 +15920,168 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 1.5.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 1
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -15904,7 +16137,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -15976,9 +16209,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -15999,9 +16234,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -16057,7 +16294,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -16129,9 +16366,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -16152,9 +16391,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -16210,8 +16451,8 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
@@ -16282,9 +16523,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -16305,9 +16548,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -16332,6 +16577,163 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636933709630000000
       IsInstalled: 1
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 2.1.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 1
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
     - Name: com.unity.timeline
       DisplayName: Unity Timeline
       _Version: 1.1.0
@@ -32170,7 +32572,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -32242,9 +32644,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -32265,9 +32669,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -32323,7 +32729,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -32395,9 +32801,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -32418,9 +32826,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -32476,7 +32886,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -32548,9 +32958,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -32571,9 +32983,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -32629,7 +33043,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -32701,9 +33115,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -32724,9 +33140,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -32782,7 +33200,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -32854,9 +33272,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -32877,9 +33297,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -32935,7 +33357,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33007,9 +33429,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33030,9 +33454,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33088,7 +33514,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33160,9 +33586,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33183,9 +33611,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33241,7 +33671,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33313,9 +33743,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33336,9 +33768,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33394,7 +33828,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33466,9 +33900,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33489,9 +33925,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33547,7 +33985,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33619,9 +34057,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33642,9 +34082,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33700,7 +34142,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33772,9 +34214,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33795,9 +34239,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -33853,7 +34299,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -33925,9 +34371,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -33948,9 +34396,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34006,7 +34456,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34078,9 +34528,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34101,9 +34553,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34159,7 +34613,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34231,9 +34685,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34254,9 +34710,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34312,7 +34770,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34384,9 +34842,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34407,9 +34867,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34465,7 +34927,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34537,9 +34999,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34560,9 +35024,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34618,7 +35084,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34690,9 +35156,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34713,9 +35181,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34771,7 +35241,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34843,9 +35313,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -34866,9 +35338,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -34924,7 +35398,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -34996,9 +35470,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -35019,9 +35495,168 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 1.5.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 1
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 1
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -35077,7 +35712,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -35149,9 +35784,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -35172,9 +35809,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -35230,7 +35869,7 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
+      State: 1
       IsLatest: 0
       Group: Packages
       Type: 
@@ -35302,9 +35941,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -35325,9 +35966,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -35383,8 +36026,8 @@ MonoBehaviour:
 
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
-      State: 0
-      IsLatest: 1
+      State: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
@@ -35455,9 +36098,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -35478,9 +36123,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -35505,6 +36152,163 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636933709630000000
       IsInstalled: 1
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 2.1.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 1
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 1
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 4
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
     - Name: com.unity.timeline
       DisplayName: Unity Timeline
       _Version: 1.1.0
@@ -87838,9 +88642,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.reflect@0.2.1-preview.2
+        m_PackageId: com.unity.reflect@0.3.0-preview.8
         m_IsDirectDependency: 0
-        m_Version: 0.2.1-preview.2
+        m_Version: 0.3.0-preview.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.reflect
@@ -87858,18 +88662,24 @@ MonoBehaviour:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Compatible:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arfoundation
-          m_Version: 1.1.0-preview.6
+          m_Version: 2.1.3
         - m_Name: com.unity.reflect.runtime
           m_Version: 1.21.0-preview.7
         - m_Name: com.unity.editorcoroutines
           m_Version: 0.0.2-preview.1
+        - m_Name: com.unity.xr.arkit
+          m_Version: 2.1.1
+        - m_Name: com.unity.xr.arcore
+          m_Version: 2.1.1
         m_ResolvedDependencies: []
         m_Keywords:
         - unity
@@ -87887,7 +88697,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637021693870000000
+        m_DatePublishedTicks: 637054670670000000
       IsInstalled: 0
     - Name: com.unity.reflect
       DisplayName: Unity Reflect
@@ -87908,9 +88718,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.reflect@0.2.1-preview.2
+        m_PackageId: com.unity.reflect@0.3.0-preview.8
         m_IsDirectDependency: 0
-        m_Version: 0.2.1-preview.2
+        m_Version: 0.3.0-preview.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.reflect
@@ -87928,18 +88738,24 @@ MonoBehaviour:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Compatible:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arfoundation
-          m_Version: 1.1.0-preview.6
+          m_Version: 2.1.3
         - m_Name: com.unity.reflect.runtime
           m_Version: 1.21.0-preview.7
         - m_Name: com.unity.editorcoroutines
           m_Version: 0.0.2-preview.1
+        - m_Name: com.unity.xr.arkit
+          m_Version: 2.1.1
+        - m_Name: com.unity.xr.arcore
+          m_Version: 2.1.1
         m_ResolvedDependencies: []
         m_Keywords:
         - unity
@@ -87957,11 +88773,87 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637021693870000000
+        m_DatePublishedTicks: 637054670670000000
       IsInstalled: 0
     - Name: com.unity.reflect
       DisplayName: Unity Reflect
       _Version: 0.2.1-preview.2
+      Description: Unity Reflect importer used for Autodesk Revit to Unity and other
+        AEC-Industial workflow. The package contains Reflect inhouse format support
+        and other utilities for navigation and visualization
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.reflect@0.3.0-preview.8
+        m_IsDirectDependency: 0
+        m_Version: 0.3.0-preview.8
+        m_Source: 1
+        m_ResolvedPath: 
+        m_AssetPath: Packages/com.unity.reflect
+        m_Name: com.unity.reflect
+        m_DisplayName: Unity Reflect
+        m_Category: 
+        m_Type: 
+        m_Description: Unity Reflect importer used for Autodesk Revit to Unity and
+          other AEC-Industial workflow. The package contains Reflect inhouse format
+          support and other utilities for navigation and visualization
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.2.0-preview.15
+          - 0.2.0-preview.17
+          - 0.2.1-preview.2
+          - 0.3.0-preview.8
+          m_Compatible:
+          - 0.2.0-preview.15
+          - 0.2.0-preview.17
+          - 0.2.1-preview.2
+          - 0.3.0-preview.8
+          m_Recommended: 
+        m_Dependencies:
+        - m_Name: com.unity.xr.arfoundation
+          m_Version: 2.1.3
+        - m_Name: com.unity.reflect.runtime
+          m_Version: 1.21.0-preview.7
+        - m_Name: com.unity.editorcoroutines
+          m_Version: 0.0.2-preview.1
+        - m_Name: com.unity.xr.arkit
+          m_Version: 2.1.1
+        - m_Name: com.unity.xr.arcore
+          m_Version: 2.1.1
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - unity
+        - aec
+        - industrial
+        - revit
+        - sketchup
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 637054670670000000
+      IsInstalled: 0
+    - Name: com.unity.reflect
+      DisplayName: Unity Reflect
+      _Version: 0.3.0-preview.8
       Description: Unity Reflect importer used for Autodesk Revit to Unity and other
         AEC-Industial workflow. The package contains Reflect inhouse format support
         and other utilities for navigation and visualization
@@ -87978,9 +88870,9 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.reflect@0.2.1-preview.2
+        m_PackageId: com.unity.reflect@0.3.0-preview.8
         m_IsDirectDependency: 0
-        m_Version: 0.2.1-preview.2
+        m_Version: 0.3.0-preview.8
         m_Source: 1
         m_ResolvedPath: 
         m_AssetPath: Packages/com.unity.reflect
@@ -87998,18 +88890,24 @@ MonoBehaviour:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Compatible:
           - 0.2.0-preview.15
           - 0.2.0-preview.17
           - 0.2.1-preview.2
+          - 0.3.0-preview.8
           m_Recommended: 
         m_Dependencies:
         - m_Name: com.unity.xr.arfoundation
-          m_Version: 1.1.0-preview.6
+          m_Version: 2.1.3
         - m_Name: com.unity.reflect.runtime
           m_Version: 1.21.0-preview.7
         - m_Name: com.unity.editorcoroutines
           m_Version: 0.0.2-preview.1
+        - m_Name: com.unity.xr.arkit
+          m_Version: 2.1.1
+        - m_Name: com.unity.xr.arcore
+          m_Version: 2.1.1
         m_ResolvedDependencies: []
         m_Keywords:
         - unity
@@ -88027,7 +88925,7 @@ MonoBehaviour:
           m_Url: https://packages.unity.com
           m_IsDefault: 1
         m_HideInEditor: 1
-        m_DatePublishedTicks: 637021693870000000
+        m_DatePublishedTicks: 637054670670000000
       IsInstalled: 0
     - Name: com.unity.remote-config
       DisplayName: Remote Config
@@ -94826,9 +95724,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -94849,9 +95749,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -94977,9 +95879,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95000,9 +95904,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95128,9 +96034,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95151,9 +96059,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95279,9 +96189,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95302,9 +96214,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95430,9 +96344,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95453,9 +96369,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95581,9 +96499,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95604,9 +96524,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95732,9 +96654,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95755,9 +96679,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -95883,9 +96809,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -95906,9 +96834,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96034,9 +96964,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96057,9 +96989,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96185,9 +97119,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96208,9 +97144,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96336,9 +97274,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96359,9 +97299,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96487,9 +97429,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96510,9 +97454,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96638,9 +97584,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96661,9 +97609,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96789,9 +97739,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96812,9 +97764,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -96940,9 +97894,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -96963,9 +97919,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97091,9 +98049,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97114,9 +98074,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97242,9 +98204,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97265,9 +98229,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97393,9 +98359,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97416,9 +98384,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97544,9 +98514,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97567,9 +98539,166 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 1.5.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 0
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97695,9 +98824,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97718,9 +98849,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97846,9 +98979,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -97869,9 +99004,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -97926,7 +99063,7 @@ MonoBehaviour:
         This release requires .Net 4.x Scripting Runtime'
       Category: Text Rendering
       State: 0
-      IsLatest: 1
+      IsLatest: 0
       Group: Packages
       Type: 
       Origin: 1
@@ -97997,9 +99134,11 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
           m_Compatible:
           - 0.1.2
           - 1.0.21
@@ -98020,9 +99159,166 @@ MonoBehaviour:
           - 1.4.0
           - 1.4.1-preview.1
           - 1.4.1
+          - 1.5.0-preview.1
           - 2.0.0
           - 2.0.1-preview.1
           - 2.0.1
+          - 2.1.0-preview.1
+          m_Recommended: 2.0.1
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - TextMeshPro
+        - TextMesh Pro
+        - Text
+        - SDF
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_DatePublishedTicks: 636933709630000000
+      IsInstalled: 0
+    - Name: com.unity.textmeshpro
+      DisplayName: TextMesh Pro
+      _Version: 2.1.0-preview.1
+      Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s the
+        perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+        Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+        along with a set of custom shaders; delivering substantial visual quality
+        improvements while giving users incredible flexibility when it comes to text
+        styling and texturing.
+
+
+        TextMesh Pro provides Improved Control over text formatting and layout with
+        features like character, word, line and paragraph spacing, kerning, justified
+        text, Links, over 30 Rich Text Tags available, support for Multi Font & Sprites,
+        Custom Styles and more.
+
+
+        Great performance. Since the geometry created by TextMesh Pro uses two triangles
+        per character just like Unity''s text components, this improved visual quality
+        and flexibility comes at no additional performance cost.
+
+
+
+        Special Notes:
+
+        ==========
+
+        This release requires .Net 4.x Scripting Runtime'
+      Category: Text Rendering
+      State: 0
+      IsLatest: 1
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 0
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 1
+      Samples: []
+      HasFullFetch: 0
+      Info:
+        m_PackageId: com.unity.textmeshpro@2.0.1
+        m_IsDirectDependency: 0
+        m_Version: 2.0.1
+        m_Source: 1
+        m_ResolvedPath: C:\Users\Brandon\Documents\unity-projects\A_pathfinding\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_AssetPath: Packages/com.unity.textmeshpro
+        m_Name: com.unity.textmeshpro
+        m_DisplayName: TextMesh Pro
+        m_Category: Text Rendering
+        m_Type: 
+        m_Description: 'TextMesh Pro is the ultimate text solution for Unity. It''s
+          the perfect replacement for Unity''s UI Text and the legacy Text Mesh.
+
+
+          Powerful and easy to use, TextMesh Pro uses Advanced Text Rendering techniques
+          along with a set of custom shaders; delivering substantial visual quality
+          improvements while giving users incredible flexibility when it comes to
+          text styling and texturing.
+
+
+          TextMesh Pro provides Improved Control over text formatting and layout with
+          features like character, word, line and paragraph spacing, kerning, justified
+          text, Links, over 30 Rich Text Tags available, support for Multi Font &
+          Sprites, Custom Styles and more.
+
+
+          Great performance. Since the geometry created by TextMesh Pro uses two triangles
+          per character just like Unity''s text components, this improved visual quality
+          and flexibility comes at no additional performance cost.
+
+
+
+          Special Notes:
+
+          ==========
+
+          This release requires .Net 4.x Scripting Runtime'
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
+          m_Compatible:
+          - 0.1.2
+          - 1.0.21
+          - 1.0.23
+          - 1.0.25
+          - 1.0.26
+          - 1.1.0
+          - 1.2.0
+          - 1.2.1
+          - 1.2.2
+          - 1.2.3
+          - 1.2.4
+          - 1.3.0-preview
+          - 1.3.0
+          - 1.4.0-preview.1b
+          - 1.4.0-preview.2a
+          - 1.4.0-preview.3a
+          - 1.4.0
+          - 1.4.1-preview.1
+          - 1.4.1
+          - 1.5.0-preview.1
+          - 2.0.0
+          - 2.0.1-preview.1
+          - 2.0.1
+          - 2.1.0-preview.1
           m_Recommended: 2.0.1
         m_Dependencies:
         - m_Name: com.unity.ugui
@@ -114280,8 +115576,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 121
-    listPackagesOfflineVersion: 120
+    listPackagesVersion: 137
+    listPackagesOfflineVersion: 136
     searchOperationOngoing: 0
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -114752,6 +116048,10 @@ MonoBehaviour:
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
+      - PackageId: com.unity.reflect@0.3.0-preview.8
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
     BuiltInSelection:
       States: []
 --- !u!114 &14
@@ -114830,9 +116130,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08310000
-    m_LastClickedID: 12552
-    m_ExpandedIDs: 000000006430000000ca9a3b
+    m_SelectedIDs: 0a310000
+    m_LastClickedID: 12554
+    m_ExpandedIDs: 000000006630000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -114860,7 +116160,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064300000
+    m_ExpandedIDs: 0000000066300000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -114983,21 +116283,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 74fbffff
+      m_ExpandedIDs: c6c7ffffe4d2ffff56d9ffff3ae6ffff44e6ffff34e7ffff5ce7ffff88e8ffffe0eaffff08ebffff34ecffff36edffff74fbffffea3c0000f03c0000083d0000d23d0000d83d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Canvas
+        m_OriginalName: Canvas
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -6598
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -115030,7 +116330,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 387
     y: 73
-    width: 1164
+    width: 1167
     height: 529
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -115043,9 +116343,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 10.785807, y: 6.6702194, z: -3697.9944}
+    m_Target: {x: 26.841381, y: 11.319262, z: -3809.7974}
     speed: 2
-    m_Value: {x: 10.785807, y: 6.6702194, z: -3697.9944}
+    m_Value: {x: 27.580809, y: 10.967766, z: -3809.61}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -115070,17 +116370,17 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     zGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 18.087124
+    m_Target: 49.722393
     speed: 2
-    m_Value: 18.087124
+    m_Value: 52.065334
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Tilemaps;
 using UnityEditor;
 
@@ -79,6 +80,14 @@ public class tileautomate : MonoBehaviour
     public Tile down_left;
     public Tile down_right;
     public Tile none;
+
+    //UI elements
+    public Text message;
+    public Image canvas;
+    private int moveSpeed = 1000;
+
+    private string startMessage = "This is an A* algorithm demostration. Click the left mouse button to close this message and select a start and end node. \n \n"+
+                                   "When then algorithm finishes, continue clicking to generate a new map.";
     
     /*** read more documentation of enum 
     //[Flags]
@@ -106,9 +115,11 @@ public class tileautomate : MonoBehaviour
     bool endSelected = false;
     bool pathFound = false;
     bool unpathable = false;
+    bool messageDisplay = true;
 
     public void genMap()
     {
+        message.text = startMessage;
         width = tmapsize.x;
         height = tmapsize.y;
         numTiles = width * height;
@@ -388,6 +399,7 @@ public class tileautomate : MonoBehaviour
         }
         if(openList.Count == 0){
             unpathable = true;
+            messageDisplay = true;
         }
        
         if(terrainmap[curPos.x,curPos.y].cur != end_s) 
@@ -446,6 +458,25 @@ public class tileautomate : MonoBehaviour
             }
         }
     }
+    public void hideUI() 
+    {
+        if(canvas.transform.position.y > -200 )
+        {
+            Debug.Log("<color=red> moving UI from "+canvas.transform.position+" </color>");
+            canvas.transform.Translate(Vector3.down * Time.deltaTime * moveSpeed, Space.World); 
+            //message.transform.Translate(Vector3.down * Time.deltaTime *100, Space.World);
+        } 
+    }
+
+    public void showUI()
+    {
+        if(canvas.transform.position.y < 382 )
+        {
+            Debug.Log("<color=red> moving UI from "+canvas.transform.position+" </color>");
+            canvas.transform.Translate(Vector3.up * Time.deltaTime * moveSpeed, Space.World); 
+            //message.transform.Translate(Vector3.down * Time.deltaTime *100, Space.World);
+        } 
+    }
     
     void Start()
     {
@@ -455,7 +486,19 @@ public class tileautomate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        getStartandEnd();
+        if(messageDisplay)
+        {
+            showUI();
+            if(Input.GetMouseButtonDown(0))
+            {
+                messageDisplay = false;
+            }
+        }
+        else
+        {
+            hideUI();
+            getStartandEnd();
+        }
         if(!gameStart && !pathFound && !unpathable)
         {
             search();
@@ -466,14 +509,16 @@ public class tileautomate : MonoBehaviour
         }
         if(unpathable)
         {
-            Debug.Log("<color=purple> no path can be determined </color>");
-            if(Input.GetMouseButtonDown(0))
+            message.text = "No path can be determined. Simply click to continue.";
+
+            if(Input.GetMouseButtonDown(0) && !messageDisplay)
             {
                 gameStart = true;
                 pathFound = false;
                 endSelected = false;
                 startSelected = false;
                 unpathable = false;
+                messageDisplay = true;
                 genMap();
             }
         }
